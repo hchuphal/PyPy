@@ -1,0 +1,2891 @@
+install python 3.x 
+
+from www.python.org
+
+
+
+Lang : C , C++, Java, C#
+
+Object Oriented Concepts :
+
+Scripting : Shell/perl/python/vb/js...
+
+
+
+How to Run Python program on Command Prompt:-
+=============================================
+ path=%path%;c:\python34
+ python
+
+
+How to Run Python program using a IDE:-
+=======================================
+>>IDLE    - default on windows
+>>pycharm - paid
+>>pydev   - free
+
+
+
+Python Repo:-
+=============
+pypi.python.org 
+
+
+Why Scripting:-
+===============
+>>String/Text Parsing
+>>File PArsing - XMl,HTML,XL,PDF....
+>>CLI Automation - ftp,ssh,telnet,email.....
+>>Frame Work
+>>Rapid Application Development
+
+VMPython - ESX Server
+CAL      - IBM Clearcase
+NetApp   - API
+
+Openstack is written using Python 
+Django is written using Python
+NumPy is Written using Python
+EmPy is written using Python
+
+
+
+Linux - product is only on linux - shell+awk+Sed
+
+Windows  Perl    Or Python
+         -de-ref    -simple
+         -h/w       -Application Layer
+         -os
+         -faster    -bit slow
+         -libs      -budding up
+                    -networking - CLI Automation
+
+
+Numpy
+matplotlib
+WEB
+SOAP   Django
+REST   plex
+       Others
+GUI    C++,GTK,Tk
+
+
+Lang = ?
+Script = ?
+Object Oriented = c++, java  , C#
+
+table name = CLASS NAME
+col names  = ATTRIBUTES
+each row   = OBJECT
+operations = BEHVRS
+
+
+
+Object Oriented Concepts
+Memory Layout
+Constant Objects    - Im-Mutable
+Non-Const objects   - Mutable
+Type Specification  - Run Time
+Deep Copy           - copies the value
+Shallow Copy        - copies the address
+Reference Counting
+Garbage Collector
+
+
+
+id(object)   : Unique ID genrtd for OBJECT:  
+type(object) : display the class name
+dir(class)   : all the member fns
+
+
+
+                   Objects
+                      |
+                      |
+       ____________________________
+      |                            | 
+  Im-mutable                     Mutable
+
+    int                           list
+    long			  dict
+    float		          bytearray
+    complex                       set
+    str
+    bool
+    tuple
+
+
+
+
+
+
+
+int   - im-mutable
+      - not iterable
+
+float - im-mutable
+      - not iterable
+
+str   - im-mutable
+      - iterable
+
+tuple - im-mutable
+      - iterable
+
+list  - mutable   
+      - iterable
+      
+dict  - mutable   
+      - iterable
+
+file  - iterable-class
+
+
+
+
+ex for string to integer conversion:-
+-------------------------------------
+res="12345"
+
+if res.isdigit(): 
+  num=int(res)
+else:
+  num=0
+
+print(num)
+
+
+
+More with integers:-
+====================
+num=0b1010      # Binary
+num=0xffff      # Hexa
+num=0o674       # Octal
+
+print(bin(num))
+print(hex(num))
+print(oct(num))
+
+
+More with strings:-
+===================
+I need the ascii value of "a"     :-  print(ord("a"))
+I need the char for ascii val 65  :-  print(chr(65))
+
+Q1) Can we have Mutable strings in Python ?
+
+Ans: yes by converting string into a list
+
+
+Q2) Convert this string to integer
+
+Ans: data="0b11101"
+ 
+     num=int(data,base=2)  # explicitly specify
+
+
+
+What is the output of this ?
+=============================
+
+num=12345
+
+arr = list(str(num))
+
+print(arr)
+
+arr = list(map(int,arr))
+
+print(arr)
+
+print(sum(arr))
+
+
+
+
+
+Output statement:-
+==================
+
+a=10
+b=20
+res=a+b
+print("sum of %d and %d is %d" %(a,b,res))
+print("sum of {0} and {1} is {2} ".format(a,b,res))
+
+print("sum of",a,"and",b,"is",res)
+print("sum of "+a+" and "+b+" is "+str(res))
+print("sum of "+a+" and "+b+" is "+repr(res))
+
+
+Input statement:-
+=================
+
+data = input("Enter a value : ")
+
+
+Note:
+ >>data type of data-variable will be "string"
+ >>return type of input will be "string"
+
+Note:
+ >>There is no difference b/w double and single quotes
+
+
+
+
+
+Type Conversion:-
+==================
+res="10"
+
+res=int(res)
+res=float(res)
+res=str(res)
+
+ex:
+num1=int(input("Enter a number : "))
+num2=int(input("Enter a number : "))
+res=num1+num2   # res=int(num1) + int(num2)
+print(res)
+
+
+
+
+
+Task1.py:-
+==========
+name=input("Enter name : ")
+
+#name='rajesh'
+#captialize the first letter and last letter of the name
+#in b/w character should be as it is
+
+print(name)  # RajesH
+
+
+Hint:  a=a.upper()
+
+sol:
+name=input("Enter first name : ")
+first_char = name[0].upper()
+last_char  = name[-1].upper()
+mid_chars  = name[1:-1]
+name=first_char + mid_chars + last_char
+print(name)  # RajesH
+
+OR
+
+name=name[0].upper() + name[1:-1] + name[-1].upper()
+
+
+
+
+Task2.py:-
+==========
+text=input("Enter any string of u r choice : ")
+
+#first 4 letter should be converted to UPPERCASE
+#last 4 letters should be reversed & to UPPERCASE
+
+Input:-  abcdef hello world 12abcd
+Output:- ABCDef hello world 12DCBA
+
+
+
+
+sol:
+
+first4_chars = text[0:4].upper()
+last4_chars  = text[-4:].upper()[::-1]
+mid_chars    = text[4:-4]
+res=first4_chars+mid_chars+last4_chars
+print(text )
+
+OR
+
+first4_chars=text[:4].upper()
+last4_chars=text[-1:-5:-1].upper()
+mid_chars=text[4:-4]
+res=first4_chars+mid_chars+last4_chars
+print(text)
+
+
+
+Task3py:-
+============
+partition the given string into 2 EQUAL parts if len EVEN
+                    string into 2 parts if len ODD
+
+a="hello"
+
+part1="he"
+part2="llo"
+
+
+b="sample"
+
+part1="sam"
+part2="ple"
+
+
+
+
+sol:
+text=input("enter the string : ")
+
+first = text[0:int(len(text)/2)]
+second= text[int(len(text)/2):]
+
+print("FIRST  = ",first)
+print("SECOND = ",second) 
+
+==========================================================
+
+String:- (default in 3.4 is Unicode)
+========
+Declare        : city='bengaluru'
+Length         : len(city)
+first char     : city[0]
+last char      : city[-1]
+First 4 chars  : city[0:4]   
+Last 4 chars   : city[-4:]
+               : city[2:-2]  
+Reverse        : city[::-1]
+Concate        : "hello "+city
+Compare 2 str  : city == "mumbai"
+Copy a string  : temp=city   # Shallow copy
+Search a string: "uru" in city
+               : "uru not in city
+Count          : city.count("u")
+get index      : city.index("u")   # left to right
+get index      : city.rindex("u")  # right to left
+find           : city.find("u")
+upper case     : city.upper()
+trim a space   : city.strip()      # ltrim & rtrim
+replace        : city.replace("u","U")
+
+
+What is output of this:-
+=======================
+name='hari prasad'
+
+arr = list(name)
+
+for index in range(len(arr)):
+  if arr[index] == "a":
+    arr[index]="*"
+
+print(arr)
+
+name="".join(arr)    # convert char-LIST to string
+
+print(name)
+
+
+
+
+Help:-   [ GUI/CLI ]
+======
+help(inbuiltfns)       : help(len)
+help(class)            : help(str)
+help(class.methodname) : help(str.upper)
+
+help()
+keywords
+modules
+topics
+__builtin__ / __builtins__
+
+if you want help on any library
+first the library should be loaded
+
+import time
+help(time)
+dir(time)
+
+
+time.localtime()
+time.localtime()[0]   
+time.localtime().tm_year
+time.strftime("%Y")
+
+
+
+
+
+
+
+
+Example:-
+=========
+text='this is one way of doing'
+
+#I need the first & last word
+#split them   - very very important function
+
+arr = text.split()
+print(arr)
+print(arr[0])
+print(arr[-1])
+
+print(arr[0][0])   # t
+print(arr[-1][0])  # d
+
+
+
+
+
+
+
+
+Operators:-
+============
+
+if-else:-
+=========
+if(num1==num2)		if num1==num2:
+{			  print("yes")
+ printf("yes");		  print("hai")
+}			else:
+else			  print("no")
+{			  print("bye")
+ printf("no");		print("Done")
+}
+
+Note: else if in python "elif"
+
+
+
+Task4.py:-
+==========
+accept a string from the user
+and check whether given string is a PAlINDROME
+case insensitive
+
+Gadag  -  Palindrome
+gadag  -  Palindrome
+nitin  -  Palindrome
+madam  -  Palindrome 
+12321  -  Palindrome 
+
+hari   -  Not a Palindrome
+
+
+
+sol:
+user = input("Enter a string : ").lower()
+
+if user == user[::-1]:
+  print("pal")
+else:
+  print("not a pal")
+
+
+
+Task5.py:-
+==========
+Prompt the user enter the date of birth in
+dd-mm-yyyy format
+dd/mm/yyyy format
+
+
+dob=input("Enter u r dob in dd-mm-yyyy format : ")
+
+dob_day   = ? 
+dob_month = ?
+sys_day   = ?
+sys_month = ?
+
+if dob_day == sys_day  and  dob_month == sys_month :
+  print("Happy Birthday")
+elif  dob_month > sys_month:
+  print("Adv wishes")
+else:
+  print("Belated wishes")
+
+
+
+
+sol:-
+=====
+import time
+
+dob=input("Enter u r dob in dd-mm-yyyy format : ")
+dob=dob.replace("/","-")
+dob_day   = int(dob.split("-")[0]) 
+dob_month = int(dob.split("-")[1]) 
+sys_day   = time.localtime().tm_mday
+sys_month = time.localtime().tm_mon
+
+if dob_day==sys_day  and  dob_month ==sys_month :
+  print("Happy Birthday")
+elif  dob_month > sys_month:
+  print("Adv wishes")
+else:
+  print("Belated wishes")
+
+
+
+Loops:-
+=======
+>>while-loop
+
+i=1
+while i<=5:
+ print(i)
+ i+=1
+
+
+
+>>for-iterator
+
+range(START,END-1,INTERVAL)
+
+list(range(10))
+list(range(1,11))
+list(range(1,11,2))
+
+
+
+ex1:
+         #[1,2,3,4,5,6,7,8,9,10]
+for i in range(1,11):
+ print(i)
+
+
+ex2:
+name='manish'
+for i in name
+ print(i,end=" ")
+
+
+ex3:
+name='manish'
+for i in range(len(name)):
+ print("Hello "+name[i])
+
+
+
+==========================================================
+
+Constant Array in python is termed - TUPLE
+
+TUPLE:-
+=======
+>>Im-Mutable
+>>Iterable
+
+declare : weeks=('sun','mon','tue','wed','thu','fri','sat')
+length      : len(weeks)
+first elem  : weeks[0]
+last  elem  : weeks[-1]
+search      : "tue" in weeks
+compare     : if(tuple1==tuple2)
+merge       : res = t1 + t2
+
+
+==========================================================
+bytearray:-
+===========
+   >> unsigned char arr2[10];   # in C
+   >> is mutable & iterable
+   >> one byte for each element
+   >> can store only integers
+   >> only +ve values
+   >> elems b/w 0 to 255
+
+declare            :  a = bytearray(10)
+legnth             :  len(a)
+replace first elem :  a[0] = 25
+
+
+
+
+==========================================================
+
+
+List:-
+=======
+declare      :  arr=[10,20,30,40,50]
+first elem   :  arr[0]
+last eleme   :  arr[-1]
+length       :  len(arr)
+first 4 ele  :  arr[0:4]
+last 4       :  arr[-4:]
+Add eleme    :  arr.append(60)   # void function
+Insert in b/w:  arr.insert(2,25) # void function
+Delete       :  del arr[0]       # del value at index 0
+                arr.pop(3)       # del value at index 3
+                arr.pop()        # del last element
+                arr.remove(40)   # remove 40 from d list
+search       : 50 in arr
+count        : arr.count(10)
+sort         : arr.sort()       # *** void function ****
+reverse      : arr.reverse()    # *** void function ****
+compre 2     : if(arr1 == arr2)
+merge 2      : res = arr1+arr2
+expand       : arr.extends([10,20,30])
+copy         : temp = arr1
+sum-elems    : res=sum(arr)   # only ints/floats
+max          : res=max(arr)
+min          : res=min(arr)
+
+
+Task6.py:-
+----------
+delcare a empty list named "values"
+values=[]
+
+Design a for-loop which repeates for 5 times
+ -within for-loop accept input from the user
+ -Append that to the empty list, 
+ -print(values)
+ -input("Enter the value %s",%i)
+
+outside the loop,find sum, find the max & min using sort 
+
+print("Sum is ",res1)
+print("MAx is ",res2)
+print("Min is ",res3)
+
+
+
+
+
+sol:
+
+values=[]
+for i in range(5):
+ values.append(int(input("enter a element: ")))
+ print(values )
+
+values.sort()
+
+print("sum is",sum(values))
+print("Max is ",values[-1])
+print("Min is ",values[0])
+
+
+----------------------------------------------------------
+Declare an LIST with 10 elements
+every element intialized to ZERO
+
+arr=[0]*10
+
+----------------------------------------------------------
+Declare a an LIST with 100 elements
+every element init to 1 to 100
+
+
+arr = list(range(1,101))
+
+----------------------------------------------------------
+#        0      1      2      3      4
+names=['ajit','amit','anup','amar','arun']
+# convert all these names
+
+#                 [0,1,2,3,4]
+for index in range(len(names)):
+ names[index] = names[index].upper()
+
+print(names)
+
+
+
+----------------------------------------------------------
+Note:
+
+names=['ajit','amit','anup','amar','arun']
+
+names=" ".join(names).upper().split()
+
+
+
+==========================================================
+
+res = map(functionname_which_accepts , listname)
+          one arg & return a value
+
+
+ex1: 
+
+arr = ["10","20","30","40","50"]
+
+arr = list(map(int, arr))
+
+print(arr)
+
+ex2:
+
+# we are calling str.upper function
+# for every element of th array
+
+names=['ajit','amit','anup','amar','arun']
+
+names=list(map(str.upper , names))
+
+print(names)
+
+ex3:
+
+def getfirstchar(anystring):
+ return anystring[0]
+
+
+names=['ajit','amit','anup','amar','arun']
+
+res=list(map(getfirstchar,names))
+
+print(res)
+
+----------------------------------------------------------
+ex:
+def fun(args):
+  print(args)
+  return args+1
+
+nums=[10,20,30,40,50]
+
+#incr every element by 1
+res=map(fun,nums)
+print(nums)
+print(res)
+
+
+ex:
+nums=[10,20,30,40,50]
+
+#incr every element by 1
+res=map(lambda x : x+1 ,nums)  
+print(nums)
+print(res)
+
+
+----------------------------------------------------------
+examples of map:-
+==================
+
+def getfirstchar(x):
+ return str(x)[0]
+
+def getfirstlast(x):
+ return x[0]+x[-1]
+
+def getmonth(x):
+ return x.split("-")[1]
+
+def getvalue(x):
+ return int(x.split("=")[1])
+==========================================================
+arr1=['arun','basu','chet','dine','elan']
+arr1[:] = map(getfirstchar,arr1)
+print(arr1)
+==========================================================
+arr2=[10,20,30,40,50,60]
+arr2[:]=map(getfirstchar,arr2)
+print(arr2)
+==========================================================
+arr3=['ramu','manu','hari','mani','arul']
+arr3[:]=map(getfirstlast,arr3)
+print(arr3)
+==========================================================
+arr4=['15-jan','20-feb','10-mar','11-apr','10-may']
+res=list(map(getmonth,arr4))
+print(res)
+==========================================================
+arr5=['a=10','b=20','c=30','d=40']
+res=list(map(getnumber,arr5))
+print(res)
+==========================================================
+
+
+example for map with lambda:-
+=============================
+arr1=['arun','basu','chet','dine','elan']
+arr1[:] = map(lambda x:x[0],arr1)
+print(arr1)
+
+arr2=[10,20,30,40,50,60]
+arr2[:]=map(lambda x:str(x)[0],arr2)
+print(arr2)
+
+
+arr3=['ramu','manu','hari','mani','arul']
+arr3[:]=map(lambda x:x[0]+x[-1],arr3)
+print(arr3)
+
+
+arr4=['15-jan','20-feb','10-mar','11-apr','10-may']
+res=list(map(lambda x:x.split("-")[1],arr4))
+print(res)
+
+
+arr5=['a=10','b=20','c=30','d=40']
+res=list(map(lambda x:int(x.split("=")[1]),arr5))
+print(res)
+
+----------------------------------------------------------
+How to sort :-
+==============
+
+>>sort this array without modifying the org array
+
+arr=[40,10,50,30,20]
+
+
+temp=arr[:]                 OR   temp=sorted(arr)
+temp.sort() 
+
+print("Unsorted:",arr)
+print("Sorted  :",temp)
+
+
+Note:   L.sort()      - Call By Reference
+        res=sorted(L) - Call By Value
+     
+        L.reverse()     - CBR
+        res=reversed(L) - CBV   
+
+
+Prototype of List.sort() and sorted:-
+=====================================
+
+L.sort(key=None,reverse=False)   
+
+sorted(iterable,key=None,reverse=False)
+
+key = funct_name, which accepts 1 arg & return a value
+      to compare
+
+reverse=False/True
+
+
+
+
+Custom Sort in Python:-
+=======================
+studs= [ 'john-70',
+         'arun-50',
+         'manu-48',
+         'hari-38',
+         'raja-8'
+       ]
+
+
+
+
+
+studs.sort(key=lambda x:int(x.split("-")[-1]),
+                                             reverse=True)
+
+print("\n".join(studs))
+
+
+
+Sorting the dict based on value:-
+==================================
+zones={'north' :  56,
+       'south' :  86,
+       'east'  :  74,
+       'west'  :  46
+      }
+
+
+# print the dict using for loop
+# sorted based on sales
+
+for key in sorted(zones,key=lambda x: zones[x]):
+ print(key,zones[key])
+
+
+
+---------------------------------------------------------
+Task7.py:-
+----------
+fruits=["apple=15"   ,  "mango=13",   "grapes=10",
+        "pineapple=5",  "papaya=6",   "chickoo=3"
+       ]
+Total weight = ?
+
+Task8.py:-
+----------
+zones=["north-10 45 30 7",       "south-43 54 65 23",
+       "east-60 34 8 37",        "west-45 98 65 56"
+      ]
+north best value is 45
+south best value is 65
+east  best value is 60
+west  best value is 98
+
+Task9.py:-
+-----------
+Input:
+ names=['hari','manu','john','amar','raja']
+ capitialize the first & last letter for each name
+Output:
+ HarI  ManU......
+
+
+sol for Task7:-
+---------------
+total=0
+for i in fruits:
+ name,qty = i.split("-")
+ total=total+int(qty)
+print("Total weight is",total)
+
+sol for Task8:-
+---------------
+for i in zones:
+ name,values=i.split("-")
+ values=values.split()
+ values=list(map(int,values))
+ print(name,max(values)
+
+sol for Task9:-
+---------------
+for i in range(len(names)):
+  temp=names[i]     
+  temp=temp[0].upper()+temp[1:-1]+temp[-1].upper()
+  names[i]=temp
+print(names)
+
+
+
+==========================================================
+Deep copy in python:-
+=====================
+import copy
+
+arr=[10,20,30,40,50]
+
+temp = arr[:]    # deep copy a simple list
+
+temp = copy.deepcopy(arr) # universal deep copy
+
+==========================================================
+Dictionary:-  [ order is NOT guart ]
+============
+
+define        : studs={'arun':10,'basu':20,'chet':30}
+length        : len(studs)
+marks of chet : studs['chet']
+search        : "chet" in studs
+incr basu 5   : studs['basu'] = studs['basu'] + 5
+Add new stud  : studs['hari'] = 60 ******VERY IMP *****
+delete        : del studs['arun']
+                studs.pop("arun")
+keys          : list1 = list(studs.keys())
+values        : list2 = list(studs.values())
+compare 2 dict: if(dict1 == dict2)
+Traverse      : for i in studs:
+                  print(i,studs[i])
+
+
+Note: studs.keys()   are dictionary view in PYTHON 3.4
+      studs.values() onwards
+
+Task10.py:-
+==========
+menu
+ vada   40
+ bhel   35
+ pizza  25
+ puri   35
+ idli   50
+
+Accept a snack name from the user
+if the snack is there display SNACKNAME & ITS PRICE
+if not display all the snack names vertically
+
+sol:
+
+menu={
+        'vada' : 40,
+        'bhel' : 35,
+        'pizza': 25,
+        'puri' : 35,
+        'idli' : 50
+       }
+
+item = input("Enter a snack name : ").lower()
+if item in menu:
+  print(item,"price is",menu[item])
+else:
+  print(item,"is not FOUND")
+  print("valid are ","\n".join(menu))
+
+
+
+Task11.py:-
+===========
+data =[
+       'arun 10-20-30-40-50',
+       'john 32-45-56-34-65',
+       'hari 43-43-76-65-34',
+       'mani 23-54-87-45-87'
+      ]
+create a dict named "studs"
+with name as a key and total marks as value
+print the dict using for loop
+
+
+sol:
+studs={}
+for elem in data:
+ name_str,marks_str = elem.split()
+ arr = marks_str.split("-")
+ arr = list(map(int,arr))
+ studs[name_str] = sum(arr)
+
+print(studs)
+
+
+sol:
+
+studs={
+       'arun' : '10-20-30-40-50',
+       'john' : '32-45-56-34-65',
+       'hari' : '43-43-76-65-34',
+       'mani' : '23-54-87-45-87'
+      }
+
+for i in studs:
+ marks = studs[i].split("-")
+ marks[:] = map(int,marks)
+ print(i,"total is",sum(marks))
+
+----------------------------------------------------------
+Set:-
+=====
+ >> is mutable
+ >> but index & slicing operations are NOT ALLOWED
+ >> is iterable
+ >> elminate the duplicates
+ >> un ordered data structure like dict
+ >> union
+    difference
+    intersection
+    issubset
+    issuperset
+
+ex:-
+----
+a = [10,20,30,40,50,60,70,10]
+b = [10,40,70,90,15,32,54]
+
+#what is common b/w a & b ?
+res = set(a) & set(b)
+print(res)
+
+#what is unique in first list ?
+print(set(a)-set(b))
+
+#union of set-A and set-B
+print(set(a)|set(b))
+
+----------------------------------------------------------
+Extended Data Structures:-
+==========================
+
+array       - every element shld of sametype 
+bisect      - define mid & extract leftmost,rightmost
+Heapq       - sorted, minheap 
+collections - namedtuple,orderedDict & more
+
+
+----------------------------------------------------------
+
+a=(10,20,30)    # tuple
+
+a=[10,20,30,40] # list
+
+a={'p':10,'q':20,'r':30} # dict
+
+
+>>Perl
+>>Ruby
+>>JSON
+
+
+Nested Datastructures:-
+========================
+a=[10,20,30]	  arr=[ [10,20,30],
+b=[40,50,60]            [40,50,60],
+c=[70,80,90]            [70,80,90]
+                      ]
+arr = [ a, b, c ]
+print len(arr)
+
+
+print(arr[0])   #   [10,20,30]
+print(arr[1])   #   [40,50,60] 
+print(arr[2])   #   [70,80,90]
+
+print(arr[0][0])   #  10
+print(arr[1][0])   #  40
+print(arr[2][0])   #  70
+print(arr[-1][-1]) #  90
+
+arr[0].append(35)
+arr[1].append(65)
+arr[2].append(95)
+
+arr.append([11,12,13])  
+
+
+ex1:
+
+studs = {
+         'arun' : [10,20,30],
+         'hari' : [40,50,85],
+         'manu' : [70,80,90],
+         'dine' : [32,54,34]
+        }
+
+
+# print marks of manu :
+
+# print the last marks of hari:
+
+# sum of all the marks of arun: 
+
+# Add a new studs by name "mani" marks is 40,50,60
+
+# print all the studs names & total using for loop
+ 
+
+ex2:
+
+zones = {
+          'south' : [] ,
+          'north' : [],
+        }
+
+# Add 10 to the south zone
+  
+# find no of elements in north zone
+
+# Add a new zone named "west"  with blank list
+
+# add 5 to the west zone
+
+# add a new zone named east with values as 6,7,8
+
+
+ex3:
+
+studs={ 
+        101 : {'name':'arun','marks':[1,2,35] },
+        108 : {'name':'amit','marks':[4,2,63] },
+        110 : {'name':'anup','marks':[6,5,87] }, 
+        143 : {'name':'ajit','marks':[5,2,56] }
+      }
+
+# print the last marks of 143
+
+# print the name of reg num 110
+
+# print all the marks of 143
+
+# print the first marks of 108
+ 
+# using for loop print all the name & total marks
+
+# Add a new marks to 143 "6"
+
+# add a new row 163, name as hari marks as 10 20 30
+
+
+
+ex4:
+
+import pprint
+projs={
+       'IMS':{'loc' :'BLR',
+              'team':['arun','basu','chet','dine'],
+              'exp' :{'q1':10,'q2':20,'q3':30,'q4':40},
+              'stat':'ON'
+             },
+       'SAN':{'loc' :'BLR',
+              'team':['arun','basu','chet','dine'],
+              'exp' :{'q1':10,'q2':20,'q3':30,'q4':40},
+              'stat':'ON'
+             }
+      }
+
+pprint.pprint(projs)
+
+
+
+
+==========================================================
+
+
+Create a list with alphabets from "a" to "z"
+
+alphas =map(chr,range(97,97+26))
+
+print(alphas)
+
+
+
+example to zip two arrays & Create a dictionary:-
+=================================================
+
+'''
+create a dictionary
+with index "a" - 1
+           "b" - 2
+         
+           "z" - 26
+
+'''
+
+nums = list(range(1,27))
+
+chars = map(chr ,range(65,91))
+
+print(dict(zip(chars,nums)))
+
+
+==========================================================
+Files:-
+======= 
+ >> Data Persistance
+ >> BOF   
+ >> EOF
+ >> File Cursor 
+ >> seek - randomly move the file Cursor
+ >> tell - from the BOF u r cur has moved how many bytes
+ >> iterable [ not index/slice ]
+
+
+Diff File Modes:-
+-------------------
+ r - read only - BOF
+ w - write only (overwrite) - BOF
+ a - append only   - EOF
+ r+ - read & write 
+ w+ - write & read ( overwrite)
+ a+ - append & read 
+
+ rb - read in Binary mode
+ wb - write in Binary mode
+ ab - append in Binary mode
+
+
+Open the file:-
+---------------
+f1 = open("/home/user1/one.txt","w")
+f1 = open("C:\\pythonprods\\one.txt","w")
+f1 = open("one.txt","w")
+
+OR
+
+with open("/home/user1/one/txt","w") as f1:
+ withblock
+ withblock
+ 
+
+Close the file:-
+----------------
+f1.close()
+
+
+
+
+
+ex1:
+=====
+import io
+try:
+ 
+  fob = open("greet.txt","r")
+  res = fob.readlines()
+  print(res)
+  print(type(res))
+
+except FileNotFoundError as e:
+  print(e)
+except io.UnsupportedOperation as e:
+  print(e)
+  fob.close()
+except Exception as e:
+  print(e)
+  fob.close()
+else:
+  print("went well")
+  fob.close()
+
+
+
+How to print the contents of the file:-
+---------------------------------------
+f1 = open("c:\\pythonprogs\\one.txt")
+
+# it will read whole file & buffer it in a "list"
+for i in f1:
+ print(i)
+f1.close()
+
+
+OR
+#we need not close the file, it is automatically closed
+
+with open("c:/pythonprogs/data.txt") as f1:
+ for i in f1:
+   print(i)
+print("hai")
+
+
+Task:-
+=======
+
+one.txt:-	two.txt
+=========	=======
+blr		kar
+chn		tn
+hyd		ap
+tvm		ker
+mum		mah
+
+
+I need output like this:-
+---------------------------
+kar capital is blr
+tn capital is chn
+ap capital is hyd
+ker capital is tvm
+mah capital is mum
+
+
+
+sol:
+f1=open("one.txt","r")
+f2=open("two.txt","r")
+outfile=open("out.txt","w")
+
+a=f1.readlines()
+b=f2.readlines()
+for i in range(len(a)):
+ a[i] = a[i].strip()
+ b[i] = b[i].strip()
+ print(b[i]+" state is "+a[i]+"\n")
+ outfile.write(b[i]+" state is "+a[i]+"\n")
+
+f1.close()
+f2.close()
+outfile.close()
+
+
+
+
+Task:-
+======= 
+Prepare a file named prods.txt:-
+--------------------------------
+DVD 10
+CD  15
+MON 35
+KB  43
+CPU 12
+K   32
+
+prepare a dict name "prods" i.e prods={}
+prod name as KEY
+     price as VALUE
+
+prompt the user to enter the product name
+display the price if the product exists
+or
+else display error message
+
+
+
+
+sol:
+prods={}
+with open("prod.txt") as f1:
+ for record in f1:
+   name,price = record.strip().split()
+   prods[name]=price
+
+userinput = input("enter any prod name : ")
+
+if userinput in prods:
+  print(userinput,"price is",prods[userinput])
+else:
+  print("Prod not found")
+
+
+
+
+Task:-
+-------
+zones.txt
+----------
+south,blr chn hyd tvm sec,10 20 30 40
+north,del jai bho gur,10 43 23 54
+east,odi dar kol,10  32  45  23
+west,ahm mum goa cha pun kola,32 65 34 67  
+
+output:-
+--------
+south 5 100
+north ? ?
+east ? ?
+west ? ?
+
+
+
+
+sol:
+with open("zones.txt","r") as f1:
+  for record in f1:
+    record = record.strip()
+    if(len(record)!=0):
+      zone,cities,vals = record.split(",")
+      n = len(cities.split())
+      tot = sum(map(int,vals.split()))
+      print(zone,n,tot)
+
+----------------------------------------------------------
+
+strbuff = f1.read(20)    # read 20 bytes from Cursor pos
+strbuff = f1.read()      # read complete file
+strbuff = f1.readline()  # only one line will be read
+listbuff = f1.readlines() # read complete file
+
+f1.write(stringbuff)     #  write a string into the file
+f1.writelines(listbuff)  #  writes the complete array
+
+f1.seek(numberofbytes,from_where) # 0-BOF,1-CUR,2-EOF
+f1.tell()
+
+
+==========================================================
+Guess what is the output:-
+===========================
+
+f1 = open("data.txt","r")
+f1.seek(0,2)  
+n = f1.tell() 
+f1.close()
+print(n)    ***** ? ******
+
+
+
+
+
+
+=========================================================
+log.txt:-
+=========
+System failed - h5610
+program exited - a760
+trunaced - o777
+Ended-s730
+application exits with -a345
+Failed to open - o4323
+device busy - h1235
+function no loaded - s321
+applicat failed -a123
+Interrupt - h3234
+
+
+h - h/w
+a - app
+o - os
+s - s/w
+
+
+
+How many h/w errors are there ?
+
+
+errdict = { }
+with open("log.txt","r") as f1:
+  for record in f1:
+    record = record.strip()
+    if record :  # HANDLE EMPTY LINES
+      mesg,errnum = record.split("-")
+      errnum = errnum.strip()
+      key=errnum[0]
+      if key in errdict:    # incr value if it is THERE
+         errdict[key] = errdict[key] + 1
+      else:
+         errdict[key] = 1   # not there CREATE ELEMENT
+
+print(errdict)
+
+
+
+
+
+==========================================================
+
+CSV - files:-
+=============
+comma separated variable file
+
+ex:
+import os
+
+os.system("cls")
+try:
+    datafile = open("d:\\ok\\newfolder\\data.txt")
+    csvfile  = open("data.csv","w")
+    for record in datafile:
+      arr = record.strip().split()
+      name = arr.pop(0)
+      arr = list(map(int,arr))
+      tot  = sum(arr)
+      print("%s,%d,%.2f" %(name,tot,tot/6))
+      csvfile.write("%s,%d,%.2f\n" %(name,tot,tot/6))
+except FileNotFound:
+    print("File Not Found/Mode is diff")
+except Exception as e:
+   print("Error",e)
+   datafile.close()
+   csvfile.close()
+else:
+   datafile.close()
+   csvfile.close()
+   print("No Error")
+
+==========================================================
+
+Functions:-
+===========
+ >>function shld be defined before its called
+ >>fun block is executed only when you call it
+ >>fun can return more than one value - TUPLE
+ 
+
+Scope of variable:-
+-------------------
+ if a variable is defined within the FUNCTION
+ such var are called as LOCAL VARS in python
+
+
+Keyword args:-
+==============
+Positional arguments
+Default arguments
+
+
+
+Positional arguments:-
+----------------------
+
+def add_data(code,name,dept):
+  print("code = ",code)
+  print("name = ",name)
+  print("Dept = ",dept)
+
+
+a=1
+b='arun'
+c='sales'
+add_data(a,b,c)    # will it work ?
+add_data()         # will it work ?
+add_data(c,a,b)    # will it work ?
+
+
+
+
+
+
+Default args:-
+-------------
+ >>default values shld be from RIGHT to LEFT
+ >>default values cannot be in b/w
+
+
+ex:
+def add_data(code=0,name="NoNAME",dept="sales"):
+  print("code = ",code)
+  print("name = ",name)
+  print("Dept = ",dept)
+
+
+add_data(1,'arun','sales')
+add_data()
+add_data(5)
+add_data(10,'hari')
+
+
+
+keyword args:-
+==============
+>>when you set a default value / with out
+  such arguments are called function keywords
+>>keyword arg should be followed by key word arg
+
+def add_data(code=0,name="NoNAME",dept="sales"):
+  print("code = ",code)
+  print("name = ",name)
+  print("Dept = ",dept)
+
+
+add_data(name='ajit')
+add_data(dept='purch',name='arun',code=123)
+
+
+
+
+
+
+
+
+Rule:
+ keyword args should be followed by keyword args
+ default values should not mutable objs i.e. list/dict
+
+
+
+
+
+Task Design fns:-
+=================
+def Addnames(arr, name):
+ pass
+
+def Delname(arr,name):
+ pass
+
+names_list=['hari','john','banu','lala','arun','ajit']
+
+new_name = input("Enter a name to be Added : ")
+
+Addnames(names_list,new_name)  
+                    # only if new_name is unique
+                    # or raise Exception("duplicate")
+print(names_list)
+
+name = input("Enter a name to be DEleted : ")
+
+Delname(names_list,name) # delete the name iff it is there
+                         # or raise Exception("Not there")
+print(names_list)
+
+
+
+
+
+sol:
+
+def Addnames(names_list,name):
+ if name.lower() not in names_list:
+  names_list.append(name.lower())
+ else:
+  raise Exception("Duplicate Entry")
+
+def Delname(names_list , name):
+  if name.lower() in names_list:
+    names_list.remove(name)
+  else:
+    raise Exception("Not found")
+
+
+
+
+
+names_list=['hari','john','banu','lala']
+new_name = input("Enter a name to be Added : ")
+Addnames(new_name)  # only if new_name is unique
+                    # or display error duplicate
+print(names_list)
+Delname(names_list,"john")
+print(names_list)
+
+
+
+----------------------------------------------------------
+Call by value & call by ref ?
+-----------------------------
+what is Call By Value   - Deep Copy of args
+what is Call By Ref     - Shallow Copy of args
+
+
+Note : Every call in Python is CALL BY REFERENCE
+
+Im-Mutable Call By Reference untill variable READ-ONLY
+         effect of Call By Value if variable Modified
+
+Mutable Call By Reference read/write
+        until the ID not modified
+
+
+
+ex:
+
+def fun(x): 
+  x[0] ='*'
+  x[-1]='*'
+
+
+arr=[10,20,30,40,50]
+print("Main ",arr)
+fun(arr)
+print("Main ",arr)
+
+
+
+
+
+Keyword "global":-
+------------------
+>> when we are modifying any GLOBAL variable in
+   a function it is compulsory to use the "global"
+   keyword , only for im-mutable datastructures
+
+ex:
+def fun():
+  global num
+  num=5 
+
+
+num=10
+print("Hello ",num)
+fun()
+print("Hello ",num)
+
+
+
+Variable args:-
+---------------
+>>  *args is a TUPLE in Python
+>>  **args is variable keyword args - DICT in Python
+
+def fun(*args):
+  print(args)
+
+
+fun()
+fun(10)
+fun(10,20,30,40)
+
+
+ex:
+def fun(a,b,**args):
+  print("A = ",a)
+  print("B = ",b)
+  print("args = ",args)
+
+
+fun(None,None)
+
+fun(None,None,hai=10,bye=20,hello=30)
+
+fun(10,55,new='one.txt',old='new.txt')
+
+==========================================================
+Modules:-
+==========
+Library Development:-
+---------------------
+
+Procedural Libaray: -collection of Functions & Vars
+
+Class Libarary: -collection of Classes
+
+
+Contents of myfuncts.py
+=======================
+__version__ = 1.0
+__author__  = 'name of the author'
+
+
+person='Hari'
+
+def fun():
+ print("Hello from ",__name__)
+
+def foo():
+ print("Hai from foo")
+
+def baaz():
+ print("I Am there baaz")
+
+def hai():
+ print("Hai everybody from",person)
+
+
+
+
+ex1:
+import myfuncts
+
+myfuncts.fun()
+myfuncts.foo()
+myfuncts.baaz()
+myfuncts.hai()
+
+
+ex2:
+import myfuncts as f
+
+f.fun()
+f.foo()
+f.baaz()
+f.hai()
+
+
+ex3:
+********It spoils the name space********
+
+from myfuncts import *
+
+fun()
+foo()
+baaz()
+hai()
+
+
+ex4:
+from myfuncts import fun,foo
+
+foo()
+fun()
+
+
+
+ex5:
+
+from myfuncts import *
+from myfuncts import fun as mfun
+
+def fun():
+ print "I will be/not be loaded"
+
+fun()
+foo()
+mfun()
+
+
+
+
+Import search PATH:-
+====================
+
+import sys
+print("\n".join(sys.path))
+
+
+to add a new path
+sys.path.append("c:\\someprogs\\libs")
+
+OR
+
+env variable by name PYTHONPATH
+
+
+
+----------------------------------------------------------
+
+What is PACKAGE in Python ?
+==========================
+ >> it is a directory of all the .py files
+ >> collection of modules
+
+
+create a folder named  "mypack"
+
+one.py				sample.py
+-------				----------
+def fun():			import mypack.one	
+  print("Hello")                import mypack.two
+         
+				mypack.one.fun()	
+two.py						
+------				mypack.two.foo()
+def foo():
+  print("Hai")
+
+
+__init__.py
+------------
+
+
+
+
+function()      - public
+_function()     - name sake private
+__function()    - private
+__function__()  - inbuilt
+
+
+
+
+
+Standard libs:-
+===============
+1) Object Persistance : 
+    pickle
+    shelve
+    database
+    json
+
+2)File Related:-
+  glob      - list files & wildcard matching
+  fileinput - read the contents of the TEXT File
+  filecmp   - to compare 2 files or dirs
+  shutil    - move/copy file or directory
+  tarfile   - create/extract tar files
+  zipfile   - create/extract zip files
+
+3)Others:-
+  hashlib        - encryption, checksum
+  math lib       -
+  random lib     -
+  date-time lib  -  time.sleep(),
+  os lib         -  any information about OS
+  sys lib        -  any info about the Python
+  optionparser   -  python one.py -a -b
+  logger         -  logger.warn
+
+
+
+
+
+
+Example for pickle parsing:-
+============================
+
+# to be executed at HOST-A side
+
+import pickle
+
+arr=[10,20,30,40,50,60]
+f1 = open("data.pickle","wb")
+pickle.dump(arr,f1,pickle.HIGHEST_PROTOCOL)
+f1.close()
+
+
+# to be executed at HOST-B side
+
+import pickle
+
+f1 = open("data.pickle","rb")
+res = pickle.load(f1)
+print(res)
+f1.close()
+
+
+example for Shelve Parsing:-
+============================
+import shelve
+
+arr=[10,20,30,40]
+emps={'arun':10, 'basu':20}
+num=10
+text="hello world"
+
+s = shelve.open("data","c")
+s['key1'] = arr
+s['key2'] = emps
+s['key3'] = num
+s['key4'] = text
+s.close()
+
+
+import shelve
+s = shelve.open("data","r")
+
+for key in s:
+ print(key,s[key])
+s.close()
+
+
+ex for JSON PARSING:-
+=====================
+# to be executed at HOST-A side
+import json
+
+data = {
+        'first' : [10,20,30],
+        'secnd' : [40,50,60]
+       }
+f1 = open("data.json","w")
+json.dump(data,f1)
+f1.close()
+
+
+# to be executed at HOST-B side
+
+import json
+
+f1 = open("data.json","r")
+res = json.load(f1)
+print(res)
+f1.close()
+
+
+
+example for database:-
+========================
+import sqlite3
+
+con = sqlite3.connect('emp.db')
+
+c = con.cursor()
+
+c.execute('''CREATE TABLE emp
+             ( code integer, 
+               name text, 
+               dept text, 
+               sal real)''')
+
+c.execute("INSERT INTO emp VALUES (1001,'arun',  \
+           'sales',12500)")
+
+con.commit()
+
+for row in c.execute('SELECT * FROM emp'):
+        print(row)
+
+con.close()
+
+
+example for glob & fileinput:-
+--------------------------------
+import glob
+import fileinput
+
+arr = glob.glob("*.txt")
+
+for line in fileinput.input(arr):
+ if(fileinput.isfirstline()):
+  print("\n=====================")
+  print(fileinput.filename())
+  print("=====================")
+ print(line,end="")
+
+
+
+example filecmp:-
+=================
+ >>compare 2 files
+ >>compare 2 dirs
+
+import filecmp
+
+if filecmp.cmp("one.txt","two.txt"):
+ print("Equal")
+else:
+ print("Contents different")
+
+
+
+
+1)check if there is file named "temp", if-so delete it
+2)check if there is folder named "temp", if-so delete it
+3)create a folder named "Temp"
+4)from the current directory select all the .txt-files
+5)move text files to a folder named "temp"
+6)create a zip file named "backup.zip" of temp folder
+
+
+glob
+shutil
+zipfile
+
+import glob
+import shutil
+import os
+import zipfile
+
+if os.path.isdir("temp"):
+ shutil.rmtree("temp")
+elif os.path.isfile("temp"):
+ os.remove("temp")
+
+os.mkdir("temp")
+
+for file in glob.glob("*.txt"):
+ shutil.copy(file,"temp")
+
+zfile = zipfile.ZipFile("mfiles.zip","w")
+for file in glob.glob("temp/*.*"):
+ zfile.write(file)
+
+zfile.close() 
+
+
+
+
+
+ex:
+import time
+
+s1 = time.time()      # returns no of seconds
+s2 = time.clock()    
+for i in range(1,6):
+ print(i)
+ time.sleep(1)
+
+e1 = time.time()
+e2 = time.clock()
+
+print(e1 - s1)
+print(e2 - s2)
+print("Today is ",time.strftime("%A"))
+print("time str is ",time.localtime())
+
+
+
+ex:
+from datetime import date,timedelta
+
+print(date.today())
+
+start = date(2010,1,31)
+
+end   = date(year=2015,month=1,day=31)
+
+res = end - start
+
+print(res)
+
+if( start == end):
+ print("yes")
+else:
+ print("no")
+
+newdate = start + timedelta(15)
+
+print(newdate)
+
+
+ex2:
+
+from datetime import datetime
+
+log1 = datetime(2015,1,1,9,0,0)
+log2 = datetime(2015,1,2,20,0,0)
+
+print(log2-log1)
+
+
+
+
+
+
+
+OS Module:-
+=============
+os.sytem("dir")
+os.listdir(".")
+os.getcwd()
+print(os.name)
+os.fork()    - spawn a new process-only in UNIX systems
+
+example for os.walk:-
+=====================
+import os
+
+for path,dirs,files in os.walk("."):
+ print(path)
+ print(dirs)
+ print(files)
+
+---------------------------------------------------------
+How to display the python script name ?
+
+ex1:
+import sys
+print(sys.argv[0]) 
+
+print(sys.argv)  # display all the command line args
+
+
+ex2:
+import sys
+a='this is new'
+b=a
+print(sys.getrefcount(a))
+
+
+
+ex3:
+
+import sys
+
+a = sys.stdin.readline()
+
+sys.stdout.write("Hello world "+a)
+
+
+
+ex4:
+import sys
+
+sys.path.append("path")
+
+OR
+PYTHONPATH
+
+
+
+
+ex for optionparser:-
+=====================
+import optparse
+
+p=optparse.OptionParser(usage="%prg",prog="myftp")
+p.add_option("--host",action="store",type="str",dest="h")
+p.add_option("--user",action="store",type="str",dest="u")
+p.add_option("--pass",action="store",type="str",dest="p")
+
+p.add_option("-t",action="store_true",dest="t", \
+default=False)
+p.add_option("-f",action="store",type="str",dest="f")
+
+opts,rem = p.parse_args()
+
+print("Host name = ",opts.h)
+print("User      = ",opts.u)
+print("PASS      = ",opts.p)
+print("Type      = ",opts.t)
+print("File      = ",opts.f)
+
+
+ex1 for logger:-
+---------------
+import logging
+
+logging.debug("error1")
+logging.info("error2")
+logging.warning("error3")
+logging.error("error4")
+logging.critical("error5")
+
+
+
+ex2 for logger:-
+-----------------
+import logging
+
+logging.basicConfig(level=logging.DEBUG,filename='e.log')
+
+logging.debug("error1")
+logging.info("error2")
+logging.warning("error3")
+logging.error("error4")
+logging.critical("error5")
+
+
+ex3:
+-----
+import logging
+
+logging.basicConfig(format="%(message)s %(asctime)s ",
+                    level=logging.DEBUG,
+                    filename='e.log')
+
+logging.debug("error1")
+logging.info("error2")
+logging.warning("error3")
+logging.error("error4")
+logging.critical("error5")
+
+
+
+
+
+
+
+Developing Class Library:-
+==========================
+
+>>Constructor in python is __init__
+>>Dtor in python is __del__
+>>"self" should the first arg to all the mem-function
+>>to refer the attributes  self.attrname
+>>Run Time Classes  - Metaclasses
+>>MOP - Metaclass Object Protocol
+
+ex:
+
+mylib.py
+=========
+class IPLTeams: 
+  
+  def __init__(this,name,loc):
+     this.name=name
+     this.loc=loc
+
+  def show(self):
+     print(self.name,self.loc)
+
+sample.py:-
+============
+from mylib import *
+
+t1 = IPLTeams("RCB","BLR")
+
+t1.show()
+
+print(t1.__dict__)
+
+
+
+ex:
+class IPLTeams: 
+  
+  def __init__(this,name,loc):
+     this.name=name
+     this.loc=loc 
+     this.members=None
+     this.scores=None
+
+  def show(self)
+     print self.name,self.loc
+     if self.members:
+       print(self.members)
+     if self.scores:
+       print(self.score)
+
+  def AddMembers(self,mlist):
+     self.members = mlist
+
+  def AddScores(self,score_dict):
+     self.scores=score_dict
+
+
+t1 = IPLTeams("RCB","BLR")
+t1.AddMembers(['virat','gayle','hari','john'])
+t1.AddScores({'m1':230,'m2':180,'m3':240})
+t1.show()
+
+
+
+ex:
+class IPLTeams: 
+ 
+  __counter=0      # static data member
+ 
+  def __init__(self,name=None,loc=None):
+     self.name=name
+     self.loc=loc
+     IPLTeams.__counter+=1
+  
+  @staticmethod
+  def displaycounter():
+     print(IPLTeams.__counter)
+
+  def show(self):
+     print(self.name,self.loc)
+
+
+t1 = IPLTeams("RCB","BLR")
+t2 = IPLTeams("CSK","CHN")
+IPLTeams.displaycounter()
+
+
+
+define a class    : using keyword "class"
+object in python  : dictionary
+data members      : keys & value
+this pointer      : self
+Access data mem   : self.attributename
+private           : self.__attributename
+ctor              : __init__
+dtor              : __del__
+static var        : declared outside __init__
+                    classname.staticvariablename
+static methods    : if the first arg is not self
+                    @staticmethod
+
+
+Note:
+ There is no Encapsulation in Python/Perl
+ 
+
+
+
+
+
+Inheritance:-
+=============
+if we create object of derived class
+it will automatically create objects of base
+classes
+
+
+
+ctor of the derived class calls the ctor of
+the base class - CTOR Cascading automatic C++,Java,C#
+
+but it is not automatic in PYTHON/PERL
+
+we have to call the init function of the base
+class whenever we derive it
+
+
+ex:
+
+
+class Alpha:
+  def __init__(self,a,b):
+    self.a = a
+    self.b = b 
+  def aprint(self):
+    print("Alpha =",self.a,self.b)
+
+class Beta(Alpha):
+  def __init__(self,a,b,c,d):
+    Alpha.__init__(self,a,b)  #****** WORK AROUND ****
+    self.c = c
+    self.d = d 
+  def bprint(self):
+    print("Beta =",self.c,self.d)
+  
+
+row1 = Beta(10,11,12,13)
+print(row1.__dict__)
+print(Beta.__mro__)   # method resolution order
+#row1.aprint()
+#row1.bprint()
+
+
+
+
+Method Over-riding:-
+======================
+ Member functions of the Base classes are 
+ re-defined in the DERIVED CLASS with the same name
+
+
+ex:
+class Alpha:
+  def __init__(self,a=10,b=20):
+    self.a = a
+    self.b = b 
+  def aprint(self):
+    print("Alpha =",self.a,self.b)
+
+class Beta(Alpha):
+  def __init__(self,c=30,d=40):
+    Alpha.__init__(self)  #****** WORK AROUND ****
+    self.c = c
+    self.d = d 
+  def aprint(self):
+    super().aprint()    # ****Method over-ridden***
+    #super(Beta,self).aprint() # syntax for 2.7
+    print("Beta =",self.c,self.d)
+  
+
+row1 = Beta()
+row1.aprint()
+
+print(row1.__dict__)
+print(Beta.__mro__)
+
+
+Operator overloadig:-
+======================
+
+class Alpha(object):
+  def __init__(self,a=10,b=20):
+    self.a = a
+    self.b = b 
+
+  def aprint(self):
+    print("Alpha =",self.a,self.b)
+
+  def __str__(self):
+    return "Alpha("+str(self.a)+","+str(self.b)+")"
+ 
+
+row1 = Alpha()
+
+print(str(row1))
+
+
+
+Exception Handling:-
+====================
+try:
+   a = int(input("Enter a val : "))
+   b = int(input("Enter a val : "))
+   if(a==b):
+     raise StandardError("Blah Blah!!!!")
+   c = a/b
+except ZeroDivisionError:
+   print("One of ur operand is ZERO")
+except ValueError:
+   print("u have given string instead of int")
+except EOFError:
+   print("Why did u press ^Z")
+except Exception as e:
+   print("Some problem",e)
+else:
+   print("result is ",c)
+finally:
+   print("I will be executed what ever the matter")
+
+
+
+User Defined in python:-
+========================
+class myex(Exception):
+ def __init__(self,mesg):
+  Exception.__init__(self)
+  self.mesg = mesg
+  
+ def __str__(self):
+  return self.mesg
+
+
+try:
+ print("Hai")
+ raise myex("error message")
+except myex as e:
+ print(e)
+except Exception as e1:
+ print("Unknown ERror ")
+else:
+ print("ok")
+
+
+
+Multi-threading & Multi-processing:-
+====================================
+ CPU bound Jobs -  Process
+
+ I/O bound Jobs -  Thread
+
+
+four modules for parallelism:-
+==============================
+threading        - for multithreading
+multiprocessing  - for multiple processes
+subprocess       - 
+concurrent       -
+
+
+
+
+Python multiprocessing:-
+========================
+>>it is parallel on multicore arch also
+>>it is dependent on subprocess module
+
+
+
+ex1:
+import multiprocessing
+
+def job1():
+ print("I am reading from file")
+
+def job2():
+ print("I cal some data")
+
+def job3():
+ print("I am reading user")
+
+def job4():
+ print("I am writing into file")
+
+
+if __name__ == "__main__":
+ p1=multiprocessing.Process(target=job1,args=())
+ p1.start()
+
+
+
+
+ex2:
+import multiprocessing
+import os
+
+def job1():
+ print("I am reading from file",os.getpid())
+
+def job2():
+ print("I cal some data",os.getpid())
+
+def job3():
+ print("I am reading user",os.getpid())
+
+def job4():
+ print("I am writing into file",os.getpid())
+
+if __name__ == "__main__":
+ print("Main starts ",os.getpid())
+ p1=multiprocessing.Process(target=job1,args=())
+ p2=multiprocessing.Process(target=job2,args=())
+ p3=multiprocessing.Process(target=job3,args=())
+ p4=multiprocessing.Process(target=job4,args=())
+ p1.start()
+ p2.start()
+ p3.start()
+ p4.start()
+ p1.join()
+ p2.join()
+ p3.join()
+ p4.join()
+ print("Main Ends ",os.getpid())
+
+
+ex3:
+import multiprocessing
+import os
+from multiprocessing import Queue,Lock
+
+def job1(q,l):
+ l.acquire()
+ q.put("Hai from JOB1.....")
+ l.release()
+ print("I am reading from file",os.getpid())
+ 
+
+def job2():
+ print("I cal some data",os.getpid())
+
+def job3(q,l):
+ l.acquire()
+ q.put("something")
+ l.release()
+ print("I am reading user",os.getpid())
+
+def job4(q):
+ print("I am writing into file",os.getpid())
+ print("Mesg1 is ",q.get())
+ print("Mesg2 is ",q.get())
+
+
+if __name__ == "__main__":
+ q= Queue()
+ l= Lock()
+ print("Main",os.getpid())
+ p1=multiprocessing.Process(target=job1,args=(q,l))
+ p2=multiprocessing.Process(target=job2,args=())
+ p3=multiprocessing.Process(target=job3,args=(q,l))
+ p4=multiprocessing.Process(target=job4,args=(q,))
+ p1.start()
+ p2.start()
+ p3.start()
+ p4.start()
+
+ p1.join()
+ p2.join()
+ p3.join()
+ p4.join()
+ print(" Main Done")
+
+
+
+ex4:
+import os
+import threading
+
+def job1(): 
+ l.acquire()
+ print("I am reading from file",os.getpid())
+ print("Mesg from job4 is ",msg.pop(0))
+ l.release()
+
+def job2():
+ print("I cal some data",os.getpid())
+
+def job3():
+ print("I am reading user",os.getpid())
+
+def job4():
+ l.acquire()
+ msg.append("Hai from JOB4")
+ print("I am writing into file",os.getpid())
+ l.release()
+
+
+if __name__ == "__main__":
+ print("Main = ",os.getpid())
+ l=threading.Lock()
+ msg=[]
+ p1=threading.Thread(target=job1,args=())
+ p2=threading.Thread(target=job2,args=())
+ p3=threading.Thread(target=job3,args=())
+ p4=threading.Thread(target=job4,args=())
+ p4.start()  # producer
+ p1.start()  # consumer
+ p2.start()
+ p3.start()
+ p4.join()
+ p1.join()
+ p2.join()
+ p3.join()
+
+
+Process Pools
+Thread Pools
+
+Tools:-
+=======
+
+UnitTest/pyUnit     -  Developers - white box testing
+Documentation       -  Triple Quotes
+Doctest             -  Testcase within the CODE
+Profiling           -  trace/cProfile/profile
+Benchmark           -  timeit 
+Debug               -  CLI = python -m pdb  hello.py 
+                       GUI = bdb
+Install             -  
+Dist Module         - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import unittest
+class stud:
+	def __init__(self,name,marks):
+		self.name=name
+		self.marks=marks
+	
+	def cal_final_marks(self):
+		self.final=(sum(self.marks)-min(self.marks))/2
+		return self.final
+		
+	def display(self):
+		print(self.name,self.final)
+
+class TestUM(unittest.TestCase):
+	def setUp(self):
+	 self.s=stud("arun",[30,20,30])
+  
+	def tearDown(self):
+	 del self.s      
+ 
+	def test_cal(self):
+	 self.assertEqual(self.s.cal_final_marks(),30)
+
+	def test_cal1(self):
+	 self.assertEqual(self.s.cal_final_marks(),40)
+
+ 
+def suite1():
+	suite = unittest.TestSuite()
+	suite.addTest(TestUM('test_cal'))
+	suite.addTest(TestUM('test_cal1'))
+	suite.addTest(TestUM('test_cal'))
+	suite.addTest(TestUM('test_cal1'))
+	return suite
+
+
+if __name__ == '__main__':
+    #unittest.main()
+    s=suite1()
+    res = unittest.TestResult()
+    s.run(res)
+    print(res)
+
+
+
+Class
+
+>>compile Time classes
+  1)data members are FIXED
+  2)every method impl passes object as first arg 
+  3)Mem fns impl stores in a variable named "this"
+  4)Inherits methods & data members
+  5)we have to defined virutal/overriden
+  6)support overloading
+  
+>>Run time classes - METACLASSES
+  1)data members are FLEXIBLE
+  2)every method impl passes object as first arg
+  3)Mem fns explicitly has to store any variable 
+  4)Inherits only methods, datamembers has to
+    inherited by the programmer
+  5)everything virtual/over-riden
+  6)not supported ctor & method overloading
+
+
+
+
+
+
+class Book:
+  def __init__(self,name,auth):
+    self.name=name
+    self.auth=auth
+
+  def __str__(self):
+    return(self.name+","+self.auth+"\n")
+
+
+class stud:
+  counter=-1
+  def __init__(self,name,*args):
+    self.name=name
+    self.books=args
+
+  def __iter__(self):
+    return self
+
+  def __next__(self):
+    print(stud.counter,len(self.books))
+    stud.counter+=1    
+    if stud.counter < len(self.books):
+      return self.books[stud.counter]
+    else:
+      raise StopIteration
+     
+
+s=stud('arun',Book('a','b'),Book('a','b'),Book('a','b'))
+print(s)
+
+for i in s:
+ print(i)
+
+
+==========================================================
+import logging
+
+def deco(func):
+ def wrapper(*args,**kwargs):
+  logging.info(func.__name__+"Entered")
+  res=func(*args,**kwargs)
+  logging.info(func.__name__+"Exited")
+  return res
+ return wrapper
+
+@deco(1)
+def add(a,b):
+ print(a+b)
+
+@deco(2)
+def minus(a,b):
+ print(a-b)
+
+@deco(5)
+def divide(a,b):
+ print(a/b)
+
+@deco(3)
+def multiply(a,b):
+ print(a*b)
+
+
+logging.basicConfig(level=logging.DEBUG,filename='functions.log')
+add(10,20)
