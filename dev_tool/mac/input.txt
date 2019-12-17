@@ -2,6 +2,23 @@
 annotation java.lang.Override
 annotation java.lang.SuppressWarnings
 class BellmanFord
+class Conversions.AnyBaseToAnyBase
+class Conversions.AnyBaseToDecimal
+class Conversions.AnytoAny
+class Conversions.BinaryToDecimal
+class Conversions.BinaryToHexadecimal
+class Conversions.BinaryToOctal
+class Conversions.DecimalToAnyBase
+class Conversions.DecimalToBinary
+class Conversions.DecimalToHexaDecimal
+class Conversions.DecimalToOctal
+class Conversions.HexToOct
+class Conversions.HexaDecimalToBinary
+class Conversions.HexaDecimalToDecimal
+class Conversions.IntegerToRoman
+class Conversions.OctalToDecimal
+class Conversions.OctalToHexadecimal
+class Conversions.RomanToInteger
 class DataStructures.Bags.Bag
 class DataStructures.Buffers.CircularBuffer
 class DataStructures.Graphs.AdjacencyListGraph
@@ -42,20 +59,137 @@ class DataStructures.Trees.TreeNode
 class DataStructures.Trees.TreeTraversal
 class DataStructures.Trees.TrieImp
 class DataStructures.Trees.ValidBSTOrNot
+class DynamicProgramming.CoinChange
+class DynamicProgramming.EditDistance
+class DynamicProgramming.EggDropping
+class DynamicProgramming.Fibonacci
+class DynamicProgramming.FordFulkerson
+class DynamicProgramming.KadaneAlgorithm
+class DynamicProgramming.Knapsack
+class DynamicProgramming.LevenshteinDistance
+class DynamicProgramming.LongestCommonSubsequence
+class DynamicProgramming.LongestIncreasingSubsequence
+class DynamicProgramming.LongestValidParentheses
+class DynamicProgramming.MatrixChainMultiplication
+class DynamicProgramming.RodCutting
+class Maths.AbsoluteMax
+class Maths.AbsoluteMin
+class Maths.AbsoluteValue
+class Maths.Factorial
+class Maths.FactorialRecursion
+class Maths.FibonacciNumber
+class Maths.FindMax
+class Maths.FindMaxRecursion
+class Maths.FindMin
+class Maths.FindMinRecursion
+class Maths.GCD
+class Maths.GCDRecursion
+class Maths.MaxValue
+class Maths.MinValue
+class Maths.PalindromeNumber
+class Maths.ParseInteger
+class Maths.PerfectNumber
+class Maths.PowRecursion
+class Maths.PrimeCheck
+class MinimizingLateness.MinimizingLateness
+class Misc.MedianOfRunningArray
+class Misc.PalindromePrime
+class Misc.heap_sort
 class NodeStack
+class Others.Abecedarian
+class Others.Armstrong
+class Others.BrianKernighanAlgorithm
+class Others.CRC32
+class Others.CRCAlgorithm
+class Others.CountChar
+class Others.CountWords
+class Others.Dijkshtra
+class Others.Dijkstra
+class Others.EulersFunction
+class Others.FibToN
+class Others.FloydTriangle
+class Others.GuassLegendre
+class Others.InsertDeleteInArray
+class Others.KMP
+class Others.Krishnamurthy
+class Others.LinearCongruentialGenerator
+class Others.LowestBasePalindrome
+class Others.Palindrome
+class Others.PasswordGen
+class Others.PerlinNoise
+class Others.PowerOfTwoOrNot
+class Others.Process
+class Others.QueueWithStack
+class Others.RemoveDuplicateFromString
+class Others.ReturnSubsequence
+class Others.ReverseStackUsingRecursion
+class Others.ReverseString
+class Others.RootPrecision
+class Others.SieveOfEratosthenes
+class Others.SkylineProblem
+class Others.StackPostfixNotation
+class Others.TopKWords
+class Others.TowerOfHanoi
+class Searches.BinarySearch
+class Searches.InterpolationSearch
+class Searches.IterativeBinarySearch
+class Searches.IterativeTernarySearch
+class Searches.JumpSearch
+class Searches.LinearSearch
+class Searches.SaddlebackSearch
+class Searches.TernarySearch
+class Sorts.BogoSort
+class Sorts.BubbleSort
+class Sorts.CocktailShakerSort
+class Sorts.CombSort
+class Sorts.CountingSort
+class Sorts.CycleSort
+class Sorts.GnomeSort
+class Sorts.HeapSort
+class Sorts.InsertionSort
+class Sorts.MergeSort
+class Sorts.PancakeSort
+class Sorts.QuickSort
+class Sorts.RadixSort
+class Sorts.SelectionSort
+class Sorts.ShellSort
+class Sorts.SortUtils
 class StackArray
 class StackArrayList
+class ciphers.AES
+class ciphers.AESEncryption
+class ciphers.Caesar
+class ciphers.ColumnarTranspositionCipher
+class ciphers.RSA
+class ciphers.Vigenere
+class divideconquer.ClosestPair
+class divideconquer.SkylineAlgorithm
+class java.io.BufferedReader
+class java.io.FileReader
+class java.io.IOException
+class java.io.InputStreamReader
 class java.lang.Double
 class java.lang.Exception
+class java.lang.Math
 class java.lang.Object
+class java.lang.String
 class java.lang.StringBuilder
+class java.math.BigInteger
+class java.security.InvalidKeyException
+class java.security.NoSuchAlgorithmException
+class java.security.SecureRandom
 class java.util.ArrayList
 class java.util.Arrays
+class java.util.BitSet
+class java.util.Collections
 class java.util.Comparator
+class java.util.HashMap
 class java.util.HashSet
+class java.util.InputMismatchException
 class java.util.Iterator
 class java.util.LinkedList
 class java.util.List
+class java.util.Map
 class java.util.NoSuchElementException
 class java.util.Objects
 class java.util.PriorityQueue
@@ -64,9 +198,42 @@ class java.util.Random
 class java.util.Scanner
 class java.util.Set
 class java.util.Stack
+class java.util.StringTokenizer
+class java.util.Vector
+class java.util.concurrent.ThreadLocalRandom
 class java.util.concurrent.atomic.AtomicInteger
+class java.util.stream.Collectors
+class java.util.stream.IntStream
+class java.util.stream.Stream
+class javax.crypto.BadPaddingException
+class javax.crypto.Cipher
+class javax.crypto.IllegalBlockSizeException
+class javax.crypto.KeyGenerator
+class javax.crypto.NoSuchPaddingException
+class javax.crypto.SecretKey
+class javax.swing.JOptionPane
+class javax.xml.bind.DatatypeConverter
+class maths.Pow
 interface DataStructures.Heaps.Heap
+interface Searches.SearchAlgorithm
+interface Sorts.SortAlgorithm
 interface java.lang.Iterable
+Conversions.AnyBaseToAnyBase ..> java.util.Arrays
+Conversions.AnyBaseToAnyBase ..> java.util.HashSet
+Conversions.AnyBaseToAnyBase ..> java.util.InputMismatchException
+Conversions.AnyBaseToAnyBase ..> java.util.Scanner
+Conversions.AnytoAny ..> java.util.Scanner
+Conversions.BinaryToDecimal ..> java.util.Scanner
+Conversions.BinaryToOctal ..> java.util.Scanner
+Conversions.DecimalToAnyBase ..> java.io.BufferedReader
+Conversions.DecimalToAnyBase ..> java.io.InputStreamReader
+Conversions.DecimalToAnyBase ..> java.util.ArrayList
+Conversions.DecimalToBinary ..> java.util.Scanner
+Conversions.DecimalToOctal ..> java.util.Scanner
+Conversions.HexToOct ..> java.util.Scanner
+Conversions.HexaDecimalToDecimal ..> java.util.Scanner
+Conversions.OctalToDecimal ..> java.util.Scanner
+Conversions.OctalToHexadecimal ..> java.util.Scanner
 DataStructures.Bags.Bag ..> java.lang.Override
 DataStructures.Bags.Bag ..> java.lang.SuppressWarnings
 DataStructures.Bags.Bag ..> java.util.Iterator
@@ -124,5 +291,177 @@ DataStructures.Trees.TreeNode ..> java.util.Queue
 DataStructures.Trees.TreeTraversal ..> java.util.LinkedList
 DataStructures.Trees.TrieImp ..> java.lang.SuppressWarnings
 DataStructures.Trees.TrieImp ..> java.util.Scanner
+DynamicProgramming.EditDistance ..> java.util.Scanner
+DynamicProgramming.Fibonacci ..> java.util.HashMap
+DynamicProgramming.Fibonacci ..> java.util.Map
+DynamicProgramming.Fibonacci ..> java.util.Scanner
+DynamicProgramming.FordFulkerson ..> java.util.LinkedList
+DynamicProgramming.FordFulkerson ..> java.util.Queue
+DynamicProgramming.FordFulkerson ..> java.util.Vector
+DynamicProgramming.KadaneAlgorithm ..> java.util.Scanner
+DynamicProgramming.LongestIncreasingSubsequence ..> java.util.Scanner
+DynamicProgramming.LongestValidParentheses ..> java.util.Scanner
+DynamicProgramming.MatrixChainMultiplication ..> java.util.ArrayList
+DynamicProgramming.MatrixChainMultiplication ..> java.util.Arrays
+DynamicProgramming.MatrixChainMultiplication ..> java.util.Scanner
+Maths.AbsoluteMax ..> java.util.Arrays
+Maths.AbsoluteMin ..> java.util.Arrays
+Maths.PrimeCheck ..> java.util.Scanner
+MinimizingLateness.MinimizingLateness ..> java.io.BufferedReader
+MinimizingLateness.MinimizingLateness ..> java.io.FileReader
+MinimizingLateness.MinimizingLateness ..> java.io.IOException
+MinimizingLateness.MinimizingLateness ..> java.util.StringTokenizer
+Misc.MedianOfRunningArray ..> java.util.Collections
+Misc.MedianOfRunningArray ..> java.util.PriorityQueue
+Misc.PalindromePrime ..> java.util.Scanner
+Others.Armstrong ..> java.util.Scanner
+Others.BrianKernighanAlgorithm ..> java.util.Scanner
+Others.CRC32 ..> java.util.BitSet
+Others.CRCAlgorithm ..> java.util.ArrayList
+Others.CRCAlgorithm ..> java.util.Random
+Others.CRCAlgorithm ..> java.util.concurrent.ThreadLocalRandom
+Others.CountChar ..> java.util.Scanner
+Others.CountWords ..> java.util.Scanner
+Others.Dijkshtra ..> java.util.Arrays
+Others.Dijkshtra ..> java.util.Scanner
+Others.Dijkshtra ..> java.util.Stack
+Others.Dijkstra ..> java.lang.Override
+Others.FibToN ..> java.util.Scanner
+Others.FloydTriangle ..> java.util.Scanner
+Others.GuassLegendre ..> java.lang.Math
+Others.Krishnamurthy ..> java.util.Scanner
+Others.LowestBasePalindrome ..> java.util.InputMismatchException
+Others.LowestBasePalindrome ..> java.util.Scanner
+Others.PasswordGen ..> java.util.ArrayList
+Others.PasswordGen ..> java.util.Collections
+Others.PasswordGen ..> java.util.List
+Others.PasswordGen ..> java.util.Random
+Others.PerlinNoise ..> java.util.Random
+Others.PerlinNoise ..> java.util.Scanner
+Others.PowerOfTwoOrNot ..> java.util.Scanner
+Others.Process ..> java.lang.Override
+Others.Process ..> java.util.ArrayList
+Others.Process ..> java.util.Comparator
+Others.Process ..> java.util.Scanner
+Others.QueueWithStack ..> java.util.Stack
+Others.RemoveDuplicateFromString ..> java.io.BufferedReader
+Others.RemoveDuplicateFromString ..> java.io.InputStreamReader
+Others.ReturnSubsequence ..> java.util.Scanner
+Others.ReverseStackUsingRecursion ..> java.util.Stack
+Others.ReverseString ..> java.io.BufferedReader
+Others.ReverseString ..> java.io.IOException
+Others.ReverseString ..> java.io.InputStreamReader
+Others.RootPrecision ..> java.util.Scanner
+Others.SkylineProblem ..> java.util.ArrayList
+Others.SkylineProblem ..> java.util.Iterator
+Others.SkylineProblem ..> java.util.Scanner
+Others.TowerOfHanoi ..> java.util.Scanner
+Searches.BinarySearch ..> java.lang.Override
+Searches.BinarySearch ..> java.lang.String
+Searches.BinarySearch ..> java.util.Arrays
+Searches.BinarySearch ..> java.util.Random
+Searches.BinarySearch ..> java.util.concurrent.ThreadLocalRandom
+Searches.BinarySearch ..> java.util.stream.IntStream
+Searches.BinarySearch --|> Searches.SearchAlgorithm
+Searches.InterpolationSearch ..> java.lang.String
+Searches.InterpolationSearch ..> java.util.Arrays
+Searches.InterpolationSearch ..> java.util.Random
+Searches.InterpolationSearch ..> java.util.stream.IntStream
+Searches.IterativeBinarySearch ..> java.lang.Override
+Searches.IterativeBinarySearch ..> java.lang.String
+Searches.IterativeBinarySearch ..> java.util.Arrays
+Searches.IterativeBinarySearch ..> java.util.Random
+Searches.IterativeBinarySearch ..> java.util.stream.Stream
+Searches.IterativeBinarySearch --|> Searches.SearchAlgorithm
+Searches.IterativeTernarySearch ..> java.lang.Override
+Searches.IterativeTernarySearch ..> java.lang.String
+Searches.IterativeTernarySearch ..> java.util.Arrays
+Searches.IterativeTernarySearch ..> java.util.Random
+Searches.IterativeTernarySearch ..> java.util.stream.Stream
+Searches.IterativeTernarySearch --|> Searches.SearchAlgorithm
+Searches.JumpSearch ..> java.lang.Override
+Searches.JumpSearch --|> Searches.SearchAlgorithm
+Searches.LinearSearch ..> java.lang.Override
+Searches.LinearSearch ..> java.util.Random
+Searches.LinearSearch ..> java.util.stream.Stream
+Searches.LinearSearch --|> Searches.SearchAlgorithm
+Searches.SaddlebackSearch ..> java.util.Scanner
+Searches.TernarySearch ..> java.lang.Override
+Searches.TernarySearch ..> java.lang.String
+Searches.TernarySearch ..> java.util.Arrays
+Searches.TernarySearch ..> java.util.Random
+Searches.TernarySearch ..> java.util.stream.Stream
+Searches.TernarySearch --|> Searches.SearchAlgorithm
+Sorts.BogoSort ..> java.util.Random
+Sorts.BogoSort --|> Sorts.SortAlgorithm
+Sorts.BubbleSort ..> java.lang.Override
+Sorts.BubbleSort ..> Sorts.SortUtils
+Sorts.BubbleSort --|> Sorts.SortAlgorithm
+Sorts.CocktailShakerSort ..> java.lang.Override
+Sorts.CocktailShakerSort --|> Sorts.SortAlgorithm
+Sorts.CombSort ..> java.lang.Override
+Sorts.CombSort ..> Sorts.SortUtils
+Sorts.CombSort --|> Sorts.SortAlgorithm
+Sorts.CountingSort ..> java.lang.Override
+Sorts.CountingSort ..> Sorts.SortUtils
+Sorts.CountingSort ..> java.util.stream.Collectors
+Sorts.CountingSort ..> java.util.stream.IntStream
+Sorts.CountingSort ..> java.util.stream.Stream
+Sorts.CountingSort --|> Sorts.SortAlgorithm
+Sorts.CycleSort ..> java.lang.Override
+Sorts.CycleSort ..> Sorts.SortUtils
+Sorts.CycleSort --|> Sorts.SortAlgorithm
+Sorts.GnomeSort ..> java.lang.Override
+Sorts.GnomeSort ..> Sorts.SortUtils
+Sorts.GnomeSort --|> Sorts.SortAlgorithm
+Sorts.HeapSort ..> java.lang.Override
+Sorts.HeapSort ..> java.lang.SuppressWarnings
+Sorts.HeapSort ..> Sorts.SortUtils
+Sorts.HeapSort ..> java.util.ArrayList
+Sorts.HeapSort ..> java.util.Arrays
+Sorts.HeapSort ..> java.util.List
+Sorts.HeapSort --|> Sorts.SortAlgorithm
+Sorts.InsertionSort ..> java.lang.Override
+Sorts.InsertionSort ..> Sorts.SortUtils
+Sorts.InsertionSort --|> Sorts.SortAlgorithm
+Sorts.MergeSort ..> java.lang.Override
+Sorts.MergeSort ..> java.lang.SuppressWarnings
+Sorts.MergeSort ..> Sorts.SortUtils
+Sorts.MergeSort --|> Sorts.SortAlgorithm
+Sorts.PancakeSort ..> java.lang.Override
+Sorts.PancakeSort ..> Sorts.SortUtils
+Sorts.PancakeSort --|> Sorts.SortAlgorithm
+Sorts.QuickSort ..> java.lang.Override
+Sorts.QuickSort ..> Sorts.SortUtils
+Sorts.QuickSort --|> Sorts.SortAlgorithm
+Sorts.RadixSort ..> java.util.Arrays
+Sorts.SelectionSort ..> java.lang.Override
+Sorts.SelectionSort --|> Sorts.SortAlgorithm
+Sorts.ShellSort ..> java.lang.Override
+Sorts.ShellSort ..> Sorts.SortUtils
+Sorts.ShellSort --|> Sorts.SortAlgorithm
+Sorts.SortUtils ..> java.util.Arrays
+Sorts.SortUtils ..> java.util.List
 StackArrayList ..> java.util.ArrayList
+ciphers.AES ..> java.math.BigInteger
+ciphers.AES ..> java.util.Scanner
+ciphers.AESEncryption ..> java.security.InvalidKeyException
+ciphers.AESEncryption ..> java.security.NoSuchAlgorithmException
+ciphers.AESEncryption ..> javax.crypto.BadPaddingException
+ciphers.AESEncryption ..> javax.crypto.Cipher
+ciphers.AESEncryption ..> javax.crypto.IllegalBlockSizeException
+ciphers.AESEncryption ..> javax.crypto.KeyGenerator
+ciphers.AESEncryption ..> javax.crypto.NoSuchPaddingException
+ciphers.AESEncryption ..> javax.crypto.SecretKey
+ciphers.AESEncryption ..> javax.xml.bind.DatatypeConverter
+ciphers.Caesar ..> java.util.Scanner
+ciphers.RSA ..> java.math.BigInteger
+ciphers.RSA ..> java.security.SecureRandom
+ciphers.RSA ..> javax.swing.JOptionPane
+divideconquer.SkylineAlgorithm ..> java.lang.Override
+divideconquer.SkylineAlgorithm ..> java.util.ArrayList
+divideconquer.SkylineAlgorithm ..> java.util.Comparator
+Sorts.SortAlgorithm ..> java.lang.SuppressWarnings
+Sorts.SortAlgorithm ..> java.util.Arrays
+Sorts.SortAlgorithm ..> java.util.List
 @enduml

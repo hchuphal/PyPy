@@ -1,0 +1,2939 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="DataStructures.HashMap.Hashing" project="Java-master" 
+    file="/Java-master/DataStructures/HashMap/Hashing" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="35" width="250" x="171" y="137"/>    
+    <display autosize="true" stereotype="false" sort-features="false" accessors="true"/>  
+  </package>  
+  <component id="2" language="java" name="DataStructures/Stacks" project="Java-master" 
+    file="/Java-master/DataStructures/Stacks" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="24" width="70" x="461" y="137"/>    
+    <display autosize="true" stereotype="false" sort-features="false" accessors="true"/>  
+  </component>  
+  <package id="3" language="java" name="Searches" project="Java-master" file="/Java-master/Searches" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="35" width="87" x="571" y="137"/>    
+    <display autosize="true" stereotype="false" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="4" language="java" name="DataStructures.Buffers" project="Java-master" 
+    file="/Java-master/DataStructures/Buffers" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="35" width="178" x="698" y="137"/>    
+    <display autosize="true" stereotype="false" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="5" language="java" name="DataStructures.Trees" project="Java-master" 
+    file="/Java-master/DataStructures/Trees" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="35" width="165" x="916" y="137"/>    
+    <display autosize="true" stereotype="false" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="6" language="java" name="DataStructures.Heaps" project="Java-master" 
+    file="/Java-master/DataStructures/Heaps" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="35" width="171" x="1121" y="137"/>    
+    <display autosize="true" stereotype="false" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="7" language="java" name="DataStructures.Bags" project="Java-master" 
+    file="/Java-master/DataStructures/Bags" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="35" width="163" x="1332" y="137"/>    
+    <display autosize="true" stereotype="false" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="8" language="java" name="Conversions" project="Java-master" file="/Java-master/Conversions" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="35" width="109" x="1535" y="137"/>    
+    <display autosize="true" stereotype="false" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="9" language="java" name="Others" project="Java-master" file="/Java-master/Others" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="35" width="70" x="1684" y="137"/>    
+    <display autosize="true" stereotype="false" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="10" language="java" name="DynamicProgramming" project="Java-master" 
+    file="/Java-master/DynamicProgramming" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="35" width="174" x="1794" y="137"/>    
+    <display autosize="true" stereotype="false" sort-features="false" accessors="true"/>  
+  </package>  
+  <component id="11" language="java" name="DataStructures/Graphs" project="Java-master" 
+    file="/Java-master/DataStructures/Graphs" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="24" width="74" x="2008" y="137"/>    
+    <display autosize="true" stereotype="false" sort-features="false" accessors="true"/>  
+  </component>  
+  <package id="12" language="java" name="DataStructures.Lists" project="Java-master" 
+    file="/Java-master/DataStructures/Lists" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="35" width="161" x="2122" y="137"/>    
+    <display autosize="true" stereotype="false" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="13" language="java" name="Sorts" project="Java-master" file="/Java-master/Sorts" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="35" width="60" x="2323" y="137"/>    
+    <display autosize="true" stereotype="false" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="14" language="java" name="MinimizingLateness" project="Java-master" 
+    file="/Java-master/MinimizingLateness" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="35" width="158" x="2423" y="137"/>    
+    <display autosize="true" stereotype="false" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="15" language="java" name="divideconquer" project="Java-master" file="/Java-master/divideconquer" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="35" width="120" x="2621" y="137"/>    
+    <display autosize="true" stereotype="false" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="16" language="java" name="ciphers" project="Java-master" file="/Java-master/ciphers" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="35" width="74" x="2781" y="137"/>    
+    <display autosize="true" stereotype="false" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="17" language="java" name="Misc" project="Java-master" file="/Java-master/Misc" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="35" width="56" x="2895" y="137"/>    
+    <display autosize="true" stereotype="false" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="18" language="java" name="DataStructures.Queues" project="Java-master" 
+    file="/Java-master/DataStructures/Queues" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="35" width="180" x="2991" y="137"/>    
+    <display autosize="true" stereotype="false" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="19" language="java" name="Maths" project="Java-master" file="/Java-master/Maths" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="35" width="65" x="3211" y="137"/>    
+    <display autosize="true" stereotype="false" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="20" language="java" name="ciphers.RSA" project="Java-master" file="/Java-master/ciphers/RSA.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="54" x="10" y="215"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="ciphers.Vigenere" project="Java-master" file="/Java-master/ciphers/Vigenere.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="83" x="104" y="215"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="ciphers.AESEncryption" project="Java-master" 
+    file="/Java-master/ciphers/AESEncryption.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="126" x="227" y="215"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="ciphers.ColumnarTranspositionCipher" project="Java-master" 
+    file="/Java-master/ciphers/ColumnarTranspositionCipher.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="226" x="393" y="215"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="ciphers.AES" project="Java-master" file="/Java-master/ciphers/AES.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="53" x="659" y="215"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="ciphers.Caesar" project="Java-master" file="/Java-master/ciphers/Caesar.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="71" x="752" y="215"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="Conversions.AnytoAny" project="Java-master" 
+    file="/Java-master/Conversions/AnytoAny.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="91" x="-20" y="263"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="Conversions.BinaryToDecimal" project="Java-master" 
+    file="/Java-master/Conversions/BinaryToDecimal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="138" x="111" y="263"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="Conversions.OctalToDecimal" project="Java-master" 
+    file="/Java-master/Conversions/OctalToDecimal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="129" x="289" y="263"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="Conversions.AnyBaseToDecimal" project="Java-master" 
+    file="/Java-master/Conversions/AnyBaseToDecimal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="154" x="458" y="263"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="Conversions.DecimalToOctal" project="Java-master" 
+    file="/Java-master/Conversions/DecimalToOctal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="129" x="652" y="263"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="Conversions.HexToOct" project="Java-master" 
+    file="/Java-master/Conversions/HexToOct.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="90" x="821" y="263"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="Conversions.AnyBaseToAnyBase" project="Java-master" 
+    file="/Java-master/Conversions/AnyBaseToAnyBase.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="160" x="951" y="263"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="Conversions.BinaryToHexadecimal" project="Java-master" 
+    file="/Java-master/Conversions/BinaryToHexadecimal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="170" x="1151" y="263"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="Conversions.DecimalToBinary" project="Java-master" 
+    file="/Java-master/Conversions/DecimalToBinary.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="138" x="1361" y="263"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="Conversions.DecimalToHexaDecimal" project="Java-master" 
+    file="/Java-master/Conversions/DecimalToHexaDecimal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="181" x="1539" y="263"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="Conversions.HexaDecimalToBinary" project="Java-master" 
+    file="/Java-master/Conversions/HexaDecimalToBinary.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="171" x="1760" y="263"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="Conversions.BinaryToOctal" project="Java-master" 
+    file="/Java-master/Conversions/BinaryToOctal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="119" x="1971" y="263"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="Conversions.IntegerToRoman" project="Java-master" 
+    file="/Java-master/Conversions/IntegerToRoman.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="135" x="2130" y="263"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="Conversions.OctalToHexadecimal" project="Java-master" 
+    file="/Java-master/Conversions/OctalToHexadecimal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="161" x="2305" y="263"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="Conversions.HexaDecimalToDecimal" project="Java-master" 
+    file="/Java-master/Conversions/HexaDecimalToDecimal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="181" x="2506" y="263"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="Conversions.RomanToInteger" project="Java-master" 
+    file="/Java-master/Conversions/RomanToInteger.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="135" x="2727" y="263"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="Conversions.DecimalToAnyBase" project="Java-master" 
+    file="/Java-master/Conversions/DecimalToAnyBase.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="154" x="2902" y="263"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="DataStructures.Bags.Bag.ListIterator" project="Java-master" 
+    file="/Java-master/DataStructures/Bags/Bag.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="168" x="-43" y="391"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="DataStructures.Bags.Bag" project="Java-master" 
+    file="/Java-master/DataStructures/Bags/Bag.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="122" x="146" y="303"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="45" language="java" name="DataStructures.Bags.Bag.Node" project="Java-master" 
+    file="/Java-master/DataStructures/Bags/Bag.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="130" x="146" y="479"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="DataStructures.Buffers.CircularBuffer.TestReadWorker" project="Java-master" 
+    file="/Java-master/DataStructures/Buffers/CircularBuffer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="134" x="-30" y="506"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="47" language="java" name="DataStructures.Buffers.CircularBuffer" project="Java-master" 
+    file="/Java-master/DataStructures/Buffers/CircularBuffer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="119" x="-30" y="418"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="48" language="java" name="DataStructures.Buffers.CircularBuffer.TestWriteWorker" project="Java-master" 
+    file="/Java-master/DataStructures/Buffers/CircularBuffer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="84" width="135" x="-30" y="294"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="49" language="java" name="DataStructures.HashMap.Hashing.HashMap" project="Java-master" 
+    file="/Java-master/DataStructures/HashMap/Hashing/HashMap.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="162" x="209" y="535"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="50" language="java" name="DataStructures.HashMap.Hashing.Main" project="Java-master" 
+    file="/Java-master/DataStructures/HashMap/Hashing/Main.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="162" x="209" y="447"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="51" language="java" name="DataStructures.HashMap.Hashing.LinkedList" project="Java-master" 
+    file="/Java-master/DataStructures/HashMap/Hashing/LinkedList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="162" x="209" y="623"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="52" language="java" name="DataStructures.HashMap.Hashing.Node" project="Java-master" 
+    file="/Java-master/DataStructures/HashMap/Hashing/Node.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="162" x="209" y="711"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="53" language="java" name="DataStructures.Heaps.MinPriorityQueue" project="Java-master" 
+    file="/Java-master/DataStructures/Heaps/MinPriorityQueue.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="141" x="577" y="561"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="54" language="java" name="DataStructures.Heaps.EmptyHeapException" project="Java-master" 
+    file="/Java-master/DataStructures/Heaps/EmptyHeapException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="168" x="737" y="755"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="55" language="java" name="DataStructures.Heaps.MaxHeap" project="Java-master" 
+    file="/Java-master/DataStructures/Heaps/MaxHeap.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="109" x="758" y="561"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="56" language="java" name="DataStructures.Heaps.HeapElement" project="Java-master" 
+    file="/Java-master/DataStructures/Heaps/HeapElement.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="113" x="945" y="755"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <interface id="57" language="java" name="DataStructures.Heaps.Heap" project="Java-master" 
+    file="/Java-master/DataStructures/Heaps/Heap.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="109" x="798" y="667"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </interface>  
+  <class id="58" language="java" name="DataStructures.Heaps.MinHeap" project="Java-master" 
+    file="/Java-master/DataStructures/Heaps/MinHeap.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="109" x="928" y="561"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="59" language="java" name="DataStructures.Lists.SinglyLinkedList" project="Java-master" 
+    file="/Java-master/DataStructures/Lists/SinglyLinkedList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="137" x="593" y="431"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="60" language="java" name="DataStructures.Lists.DoublyLinkedList" project="Java-master" 
+    file="/Java-master/DataStructures/Lists/DoublyLinkedList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="142" x="770" y="431"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="61" language="java" name="DataStructures.Lists.MergeSortedArrayList" project="Java-master" 
+    file="/Java-master/DataStructures/Lists/MergeSortedArrayList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="172" x="381" y="431"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="62" language="java" name="DataStructures.Lists.Merge_K_SortedLinkedlist" project="Java-master" 
+    file="/Java-master/DataStructures/Lists/Merge_K_SortedLinkedlist.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="201" x="952" y="431"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="63" language="java" name="DataStructures.Lists.CircleLinkedList.Node" project="Java-master" 
+    file="/Java-master/DataStructures/Lists/CircleLinkedList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="101" x="1193" y="537"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="64" language="java" name="DataStructures.Lists.CursorLinkedList.Node" project="Java-master" 
+    file="/Java-master/DataStructures/Lists/CursorLinkedList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="120" width="123" x="1392" y="537"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="65" language="java" name="DataStructures.Lists.Link" project="Java-master" 
+    file="/Java-master/DataStructures/Lists/DoublyLinkedList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="101" x="770" y="537"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="66" language="java" name="DataStructures.Lists.Merge_K_SortedLinkedlist.Node" project="Java-master" 
+    file="/Java-master/DataStructures/Lists/Merge_K_SortedLinkedlist.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="101" x="952" y="537"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="67" language="java" name="DataStructures.Lists.CircleLinkedList" project="Java-master" 
+    file="/Java-master/DataStructures/Lists/CircleLinkedList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="159" x="1193" y="431"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="68" language="java" name="DataStructures.Lists.Node" project="Java-master" 
+    file="/Java-master/DataStructures/Lists/SinglyLinkedList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="120" width="108" x="593" y="537"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="69" language="java" name="DataStructures.Lists.CursorLinkedList" project="Java-master" 
+    file="/Java-master/DataStructures/Lists/CursorLinkedList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="165" x="1392" y="431"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="70" language="java" name="DataStructures.Queues.PriorityQueues" project="Java-master" 
+    file="/Java-master/DataStructures/Queues/PriorityQueues.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="125" x="361" y="337"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="71" language="java" name="DataStructures.Queues.Queues" project="Java-master" 
+    file="/Java-master/DataStructures/Queues/Queues.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="115" x="773" y="337"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="72" language="java" name="DataStructures.Queues.LinkedQueue.Node" project="Java-master" 
+    file="/Java-master/DataStructures/Queues/LinkedQueue.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="115" x="928" y="443"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="73" language="java" name="DataStructures.Queues.GenericArrayListQueue" project="Java-master" 
+    file="/Java-master/DataStructures/Queues/GenericArrayListQueue.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="207" x="526" y="337"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="74" language="java" name="DataStructures.Queues.PriorityQueue" project="Java-master" 
+    file="/Java-master/DataStructures/Queues/PriorityQueues.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="117" x="361" y="443"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="75" language="java" name="DataStructures.Queues.Queue" project="Java-master" 
+    file="/Java-master/DataStructures/Queues/Queues.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="115" x="773" y="443"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="76" language="java" name="DataStructures.Queues.LinkedQueue" project="Java-master" 
+    file="/Java-master/DataStructures/Queues/LinkedQueue.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="115" x="928" y="337"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="77" language="java" name="DataStructures.Trees.AVLTree" project="Java-master" 
+    file="/Java-master/DataStructures/Trees/AVLTree.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="105" x="253" y="409"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="78" language="java" name="DataStructures.Trees.TrieImp" project="Java-master" 
+    file="/Java-master/DataStructures/Trees/TrieImp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="105" x="431" y="409"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="79" language="java" name="DataStructures.Trees.LevelOrderTraversalQueue.Node" project="Java-master" 
+    file="/Java-master/DataStructures/Trees/LevelOrderTraversalQueue.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="105" x="1012" y="605"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="80" language="java" name="DataStructures.Trees.QItem" project="Java-master" 
+    file="/Java-master/DataStructures/Trees/PrintTopViewofTree.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="105" x="730" y="777"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="81" language="java" name="DataStructures.Trees.Node" project="Java-master" 
+    file="/Java-master/DataStructures/Trees/TreeTraversal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="105" x="2016" y="605"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="82" language="java" name="DataStructures.Trees.AVLTree.Node" project="Java-master" 
+    file="/Java-master/DataStructures/Trees/AVLTree.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="108" x="253" y="605"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="83" language="java" name="DataStructures.Trees.LevelOrderTraversal.Node" project="Java-master" 
+    file="/Java-master/DataStructures/Trees/LevelOrderTraversal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="105" x="1798" y="605"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="84" language="java" name="DataStructures.Trees.GenericTree.Node" project="Java-master" 
+    file="/Java-master/DataStructures/Trees/GenericTree.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="105" x="1255" y="605"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="85" language="java" name="DataStructures.Trees.ValidBSTOrNot" project="Java-master" 
+    file="/Java-master/DataStructures/Trees/ValidBSTOrNot.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="84" width="191" x="586" y="409"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="86" language="java" name="DataStructures.Trees.LevelOrderTraversalQueue" project="Java-master" 
+    file="/Java-master/DataStructures/Trees/LevelOrderTraversalQueue.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="203" x="1012" y="409"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="87" language="java" name="DataStructures.Trees.GenericTree" project="Java-master" 
+    file="/Java-master/DataStructures/Trees/GenericTree.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="105" x="1255" y="409"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="88" language="java" name="DataStructures.Trees.RedBlackBST.Node" project="Java-master" 
+    file="/Java-master/DataStructures/Trees/RedBlackBST.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="102" width="105" x="1410" y="605"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="89" language="java" name="DataStructures.Trees.RedBlackBST" project="Java-master" 
+    file="/Java-master/DataStructures/Trees/RedBlackBST.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="156" width="173" x="1410" y="409"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="90" language="java" name="DataStructures.Trees.TrieImp.TrieNode" project="Java-master" 
+    file="/Java-master/DataStructures/Trees/TrieImp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="105" x="431" y="605"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="91" language="java" name="DataStructures.Trees.TreeNode" project="Java-master" 
+    file="/Java-master/DataStructures/Trees/PrintTopViewofTree.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="105" x="856" y="883"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="92" language="java" name="DataStructures.Trees.BinaryTree" project="Java-master" 
+    file="/Java-master/DataStructures/Trees/BinaryTree.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="105" x="1623" y="409"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="93" language="java" name="DataStructures.Trees.LevelOrderTraversal" project="Java-master" 
+    file="/Java-master/DataStructures/Trees/LevelOrderTraversal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="102" width="188" x="1798" y="409"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="94" language="java" name="DataStructures.Trees.Tree" project="Java-master" 
+    file="/Java-master/DataStructures/Trees/PrintTopViewofTree.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="105" x="751" y="605"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="95" language="java" name="DataStructures.Trees.TreeTraversal" project="Java-master" 
+    file="/Java-master/DataStructures/Trees/TreeTraversal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="115" x="2026" y="409"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="96" language="java" name="DataStructures.Trees.ValidBSTOrNot.Node" project="Java-master" 
+    file="/Java-master/DataStructures/Trees/ValidBSTOrNot.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="105" x="586" y="605"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="97" language="java" name="DataStructures.Trees.PrintTopViewofTree" project="Java-master" 
+    file="/Java-master/DataStructures/Trees/PrintTopViewofTree.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="155" x="817" y="409"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="98" language="java" name="DataStructures.Trees.BinaryTree.Node" project="Java-master" 
+    file="/Java-master/DataStructures/Trees/BinaryTree.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="105" x="1623" y="605"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="99" language="java" name="divideconquer.SkylineAlgorithm.Point" project="Java-master" 
+    file="/Java-master/divideconquer/SkylineAlgorithm.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="73" x="217" y="771"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="100" language="java" name="divideconquer.SkylineAlgorithm" project="Java-master" 
+    file="/Java-master/divideconquer/SkylineAlgorithm.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="140" x="217" y="505"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="101" language="java" name="divideconquer.ClosestPair.Location" project="Java-master" 
+    file="/Java-master/divideconquer/ClosestPair.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="102" width="155" x="397" y="629"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="102" language="java" name="divideconquer.ClosestPair" project="Java-master" 
+    file="/Java-master/divideconquer/ClosestPair.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="84" width="120" x="397" y="505"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="103" language="java" name="divideconquer.SkylineAlgorithm.XComparator" project="Java-master" 
+    file="/Java-master/divideconquer/SkylineAlgorithm.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="113" x="83" y="629"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="104" language="java" name="DynamicProgramming.FordFulkerson" project="Java-master" 
+    file="/Java-master/DynamicProgramming/FordFulkerson.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="123" x="104" y="517"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="105" language="java" name="DynamicProgramming.Knapsack" project="Java-master" 
+    file="/Java-master/DynamicProgramming/Knapsack.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="109" x="267" y="517"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="106" language="java" name="DynamicProgramming.Matrix" project="Java-master" 
+    file="/Java-master/DynamicProgramming/MatrixChainMultiplication.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="120" width="112" x="836" y="623"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="107" language="java" name="DynamicProgramming.CoinChange" project="Java-master" 
+    file="/Java-master/DynamicProgramming/CoinChange.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="109" x="416" y="517"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="108" language="java" name="DynamicProgramming.MatrixChainMultiplication" project="Java-master" 
+    file="/Java-master/DynamicProgramming/MatrixChainMultiplication.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="195" x="836" y="517"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="109" language="java" name="DynamicProgramming.LongestCommonSubsequence" project="Java-master" 
+    file="/Java-master/DynamicProgramming/LongestCommonSubsequence.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="231" x="565" y="517"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="110" language="java" name="DynamicProgramming.LongestIncreasingSubsequence" project="Java-master" 
+    file="/Java-master/DynamicProgramming/LongestIncreasingSubsequence.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="240" x="1071" y="517"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="111" language="java" name="DynamicProgramming.Fibonacci" project="Java-master" 
+    file="/Java-master/DynamicProgramming/Fibonacci.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="109" x="1351" y="517"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="112" language="java" name="DynamicProgramming.EggDropping" project="Java-master" 
+    file="/Java-master/DynamicProgramming/EggDropping.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="113" x="1500" y="517"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="113" language="java" name="DynamicProgramming.LongestValidParentheses" project="Java-master" 
+    file="/Java-master/DynamicProgramming/LongestValidParentheses.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="195" x="1653" y="517"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="114" language="java" name="DynamicProgramming.KadaneAlgorithm" project="Java-master" 
+    file="/Java-master/DynamicProgramming/KadaneAlgorithm.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="141" x="1888" y="517"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="115" language="java" name="DynamicProgramming.RodCutting" project="Java-master" 
+    file="/Java-master/DynamicProgramming/RodCutting.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="109" x="2069" y="517"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="116" language="java" name="DynamicProgramming.LevenshteinDistance" project="Java-master" 
+    file="/Java-master/DynamicProgramming/LevenshteinDistance.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="165" x="2218" y="517"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="117" language="java" name="DynamicProgramming.EditDistance" project="Java-master" 
+    file="/Java-master/DynamicProgramming/EditDistance.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="109" x="2423" y="517"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="118" language="java" name="Maths.FindMaxRecursion" project="Java-master" 
+    file="/Java-master/Maths/FindMaxRecursion.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="150" x="80" y="587"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="119" language="java" name="Maths.PrimeCheck" project="Java-master" 
+    file="/Java-master/Maths/PrimeCheck.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="105" x="270" y="587"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="120" language="java" name="Maths.FindMax" project="Java-master" file="/Java-master/Maths/FindMax.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="81" x="415" y="587"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="121" language="java" name="Maths.AbsoluteMin" project="Java-master" 
+    file="/Java-master/Maths/AbsoluteMin.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="108" x="536" y="587"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="122" language="java" name="Maths.GCD" project="Java-master" file="/Java-master/Maths/GCD.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="56" x="684" y="587"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="123" language="java" name="Maths.MaxValue" project="Java-master" file="/Java-master/Maths/MaxValue.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="88" x="780" y="587"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="124" language="java" name="Maths.PerfectNumber" project="Java-master" 
+    file="/Java-master/Maths/PerfectNumber.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="125" x="908" y="587"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="125" language="java" name="Maths.AbsoluteValue" project="Java-master" 
+    file="/Java-master/Maths/AbsoluteValue.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="121" x="1073" y="587"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="126" language="java" name="Maths.FindMin" project="Java-master" file="/Java-master/Maths/FindMin.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="78" x="1234" y="587"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="127" language="java" name="Maths.AbsoluteMax" project="Java-master" 
+    file="/Java-master/Maths/AbsoluteMax.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="112" x="1352" y="587"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="128" language="java" name="Maths.FindMinRecursion" project="Java-master" 
+    file="/Java-master/Maths/FindMinRecursion.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="147" x="1504" y="587"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="129" language="java" name="Maths.Factorial" project="Java-master" file="/Java-master/Maths/Factorial.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="83" x="1691" y="587"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="130" language="java" name="Maths.FactorialRecursion" project="Java-master" 
+    file="/Java-master/Maths/FactorialRecursion.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="151" x="1814" y="587"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="131" language="java" name="Maths.Pow" project="Java-master" file="/Java-master/Maths/Pow.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="53" x="2005" y="587"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="132" language="java" name="Maths.GCDRecursion" project="Java-master" 
+    file="/Java-master/Maths/GCDRecursion.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="124" x="2098" y="587"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="133" language="java" name="Maths.MinValue" project="Java-master" file="/Java-master/Maths/MinValue.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="85" x="2262" y="587"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="134" language="java" name="Maths.FibonacciNumber" project="Java-master" 
+    file="/Java-master/Maths/FibonacciNumber.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="143" x="2387" y="587"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="135" language="java" name="Maths.ParseInteger" project="Java-master" 
+    file="/Java-master/Maths/ParseInteger.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="109" x="2570" y="587"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="136" language="java" name="Maths.PowRecursion" project="Java-master" 
+    file="/Java-master/Maths/PowRecursion.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="122" x="2719" y="587"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="137" language="java" name="Maths.PalindromeNumber" project="Java-master" 
+    file="/Java-master/Maths/PalindromeNumber.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="154" x="2881" y="587"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="138" language="java" name="MinimizingLateness.MinimizingLateness.Schedule" project="Java-master" 
+    file="/Java-master/MinimizingLateness/MinimizingLateness.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="120" width="98" x="73" y="905"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="139" language="java" name="MinimizingLateness.MinimizingLateness" project="Java-master" 
+    file="/Java-master/MinimizingLateness/MinimizingLateness.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="158" x="73" y="817"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="140" language="java" name="Misc.MedianOfRunningArray" project="Java-master" 
+    file="/Java-master/Misc/MedianOfRunningArray.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="182" x="18" y="727"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="141" language="java" name="Misc.heap_sort" project="Java-master" file="/Java-master/Misc/heap_sort.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="150" x="240" y="727"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="142" language="java" name="Misc.PalindromePrime" project="Java-master" 
+    file="/Java-master/Misc/PalindromePrime.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="140" x="430" y="727"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="143" language="java" name="Others.Armstrong" project="Java-master" 
+    file="/Java-master/Others/Armstrong.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="96" x="193" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="144" language="java" name="Others.Dijkstra" project="Java-master" file="/Java-master/Others/Dijkstra.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="76" x="5173" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="145" language="java" name="Others.Dijkshtra" project="Java-master" 
+    file="/Java-master/Others/Dijkshtra.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="84" x="329" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="146" language="java" name="Others.ReverseStackUsingRecursion" project="Java-master" 
+    file="/Java-master/Others/ReverseStackUsingRecursion.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="224" x="453" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="147" language="java" name="Others.Schedule" project="Java-master" file="/Java-master/Others/SJF.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="102" width="189" x="5272" y="625"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="148" language="java" name="Others.ReturnSubsequence" project="Java-master" 
+    file="/Java-master/Others/ReturnSubsequence.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="161" x="717" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="149" language="java" name="Others.CRCAlgorithm" project="Java-master" 
+    file="/Java-master/Others/CRCAlgorithm.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="121" x="918" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="150" language="java" name="Others.CountWords" project="Java-master" 
+    file="/Java-master/Others/CountWords.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="108" x="1079" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="151" language="java" name="Others.Krishnamurthy" project="Java-master" 
+    file="/Java-master/Others/Krishnamurthy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="124" x="1227" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="152" language="java" name="Others.BrianKernighanAlgorithm" project="Java-master" 
+    file="/Java-master/Others/BrianKernighanAlgorithm.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="196" x="1391" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="153" language="java" name="Others.SieveOfEratosthenes" project="Java-master" 
+    file="/Java-master/Others/SieveOfEratosthenes.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="165" x="1627" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="154" language="java" name="Others.Graph" project="Java-master" file="/Java-master/Others/Dijkstra.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="66" x="5086" y="625"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="155" language="java" name="Others.PasswordGen" project="Java-master" 
+    file="/Java-master/Others/PasswordGen.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="118" x="1832" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="156" language="java" name="Others.RootPrecision" project="Java-master" 
+    file="/Java-master/Others/RootPrecision.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="119" x="1990" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="157" language="java" name="Others.Graph.Edge" project="Java-master" 
+    file="/Java-master/Others/Dijkstra.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="59" x="5173" y="767"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="158" language="java" name="Others.FibToN" project="Java-master" file="/Java-master/Others/FibToN.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="72" x="2149" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="159" language="java" name="Others.SJF" project="Java-master" file="/Java-master/Others/SJF.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="50" x="5289" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="160" language="java" name="Others.RemoveDuplicateFromString" project="Java-master" 
+    file="/Java-master/Others/RemoveDuplicateFromString.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="217" x="2261" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="161" language="java" name="Others.GuassLegendre" project="Java-master" 
+    file="/Java-master/Others/GuassLegendre.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="130" x="2518" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="162" language="java" name="Others.FloydTriangle" project="Java-master" 
+    file="/Java-master/Others/FloydTriangle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="116" x="2688" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="163" language="java" name="Others.QueueWithStack" project="Java-master" 
+    file="/Java-master/Others/QueueUsingTwoStacks.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="136" x="5735" y="625"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="164" language="java" name="Others.Process" project="Java-master" file="/Java-master/Others/SJF.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="79" x="5272" y="767"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="165" language="java" name="Others.LowestBasePalindrome" project="Java-master" 
+    file="/Java-master/Others/LowestBasePalindrome.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="182" x="2844" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="166" language="java" name="Others.StackPostfixNotation" project="Java-master" 
+    file="/Java-master/Others/StackPostfixNotation.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="165" x="3066" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="167" language="java" name="Others.SkylineProblem.Skyline" project="Java-master" 
+    file="/Java-master/Others/SkylineProblem.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="74" x="5501" y="625"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="168" language="java" name="Others.SkylineProblem" project="Java-master" 
+    file="/Java-master/Others/SkylineProblem.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="130" x="5565" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="169" language="java" name="Others.Abecedarian" project="Java-master" 
+    file="/Java-master/Others/Abecedarian.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="109" x="3271" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="170" language="java" name="Others.LinearCongruentialGenerator" project="Java-master" 
+    file="/Java-master/Others/LinearCongruentialGenerator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="220" x="3420" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="171" language="java" name="Others.SkylineProblem.Building" project="Java-master" 
+    file="/Java-master/Others/SkylineProblem.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="80" x="5615" y="625"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="172" language="java" name="Others.EulersFunction" project="Java-master" 
+    file="/Java-master/Others/EulersFunction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="126" x="3680" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="173" language="java" name="Others.Palindrome" project="Java-master" 
+    file="/Java-master/Others/Palindrome.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="101" x="3846" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="174" language="java" name="Others.PerlinNoise" project="Java-master" 
+    file="/Java-master/Others/PerlinNoise.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="102" x="3987" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="175" language="java" name="Others.KMP" project="Java-master" file="/Java-master/Others/KMP.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="56" x="4129" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="176" language="java" name="Others.QueueUsingTwoStacks" project="Java-master" 
+    file="/Java-master/Others/QueueUsingTwoStacks.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="179" x="5735" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="177" language="java" name="Others.PowerOfTwoOrNot" project="Java-master" 
+    file="/Java-master/Others/PowerOfTwoOrNot.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="149" x="4225" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="178" language="java" name="Others.TopKWords.CountWords" project="Java-master" 
+    file="/Java-master/Others/TopKWords.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="108" x="5949" y="625"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="179" language="java" name="Others.CountChar" project="Java-master" 
+    file="/Java-master/Others/CountChar.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="97" x="4414" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="180" language="java" name="Others.Graph.Vertex" project="Java-master" 
+    file="/Java-master/Others/Dijkstra.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="67" x="5056" y="767"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="181" language="java" name="Others.TopKWords" project="Java-master" 
+    file="/Java-master/Others/TopKWords.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="103" x="5954" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="182" language="java" name="Others.CRC32" project="Java-master" file="/Java-master/Others/CRC32.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="70" x="4551" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="183" language="java" name="Others.InsertDeleteInArray" project="Java-master" 
+    file="/Java-master/Others/InsertDeleteInArray.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="154" x="4661" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="184" language="java" name="Others.ReverseString" project="Java-master" 
+    file="/Java-master/Others/ReverseString.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="119" x="4855" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="185" language="java" name="Others.TowerOfHanoi" project="Java-master" 
+    file="/Java-master/Others/TowerOfHanoi.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="119" x="5014" y="519"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="186" language="java" name="Searches.InterpolationSearch" project="Java-master" 
+    file="/Java-master/Searches/InterpolationSearch.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="156" x="4246" y="670"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <interface id="187" language="java" name="Searches.SearchAlgorithm" project="Java-master" 
+    file="/Java-master/Searches/SearchAlgorithm.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="137" x="5042" y="776"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </interface>  
+  <class id="188" language="java" name="Searches.SaddlebackSearch" project="Java-master" 
+    file="/Java-master/Searches/SaddlebackSearch.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="149" x="4442" y="670"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="189" language="java" name="Searches.LinearSearch" project="Java-master" 
+    file="/Java-master/Searches/LinearSearch.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="113" x="4631" y="670"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="190" language="java" name="Searches.JumpSearch" project="Java-master" 
+    file="/Java-master/Searches/JumpSearch.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="109" x="4784" y="670"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="191" language="java" name="Searches.BinarySearch" project="Java-master" 
+    file="/Java-master/Searches/BinarySearch.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="115" x="4933" y="670"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="192" language="java" name="Searches.IterativeTernarySearch" project="Java-master" 
+    file="/Java-master/Searches/IterativeTernarySearch.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="175" x="5088" y="670"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="193" language="java" name="Searches.IterativeBinarySearch" project="Java-master" 
+    file="/Java-master/Searches/IterativeBinarySearch.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="168" x="5303" y="670"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="194" language="java" name="Searches.TernarySearch" project="Java-master" 
+    file="/Java-master/Searches/TernarySearch.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="122" x="5511" y="670"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="195" language="java" name="Sorts.HeapSort" project="Java-master" file="/Java-master/Sorts/HeapSort.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="87" x="4477" y="649"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="196" language="java" name="Sorts.QuickSort" project="Java-master" file="/Java-master/Sorts/QuickSort.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="91" x="4517" y="755"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="197" language="java" name="Sorts.MergeSort" project="Java-master" file="/Java-master/Sorts/MergeSort.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="94" x="5901" y="755"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="198" language="java" name="Sorts.ShellSort" project="Java-master" file="/Java-master/Sorts/ShellSort.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="86" x="5214" y="755"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="199" language="java" name="Sorts.HeapSort.Heap" project="Java-master" 
+    file="/Java-master/Sorts/HeapSort.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="84" x="4372" y="755"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="200" language="java" name="Sorts.CombSort" project="Java-master" file="/Java-master/Sorts/CombSort.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="92" x="4648" y="755"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="201" language="java" name="Sorts.CountingSort" project="Java-master" 
+    file="/Java-master/Sorts/CountingSort.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="114" x="6229" y="755"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="202" language="java" name="Sorts.GnomeSort" project="Java-master" file="/Java-master/Sorts/GnomeSort.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="101" x="5340" y="755"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="203" language="java" name="Sorts.BubbleSort" project="Java-master" 
+    file="/Java-master/Sorts/BubbleSort.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="100" x="5609" y="755"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <interface id="204" language="java" name="Sorts.SortAlgorithm" project="Java-master" 
+    file="/Java-master/Sorts/SortAlgorithm.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="119" x="5481" y="861"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </interface>  
+  <class id="205" language="java" name="Sorts.CycleSort" project="Java-master" file="/Java-master/Sorts/CycleSort.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="90" x="4780" y="755"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="206" language="java" name="Sorts.CocktailShakerSort" project="Java-master" 
+    file="/Java-master/Sorts/CocktailShakerSort.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="154" x="6035" y="755"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="207" language="java" name="Sorts.SelectionSort" project="Java-master" 
+    file="/Java-master/Sorts/SelectionSort.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="115" x="5059" y="755"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="208" language="java" name="Sorts.SortUtils" project="Java-master" file="/Java-master/Sorts/SortUtils.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="83" x="5175" y="861"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="209" language="java" name="Sorts.PancakeSort" project="Java-master" 
+    file="/Java-master/Sorts/PancakeSort.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="109" x="4910" y="755"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="210" language="java" name="Sorts.RadixSort" project="Java-master" file="/Java-master/Sorts/RadixSort.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="91" x="5438" y="649"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="211" language="java" name="Sorts.BogoSort" project="Java-master" file="/Java-master/Sorts/BogoSort.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="88" x="5481" y="755"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="212" language="java" name="Sorts.InsertionSort" project="Java-master" 
+    file="/Java-master/Sorts/InsertionSort.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="112" x="5749" y="755"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="213" language="java" name="Cycles" project="Java-master" 
+    file="/Java-master/DataStructures/Graphs/Cycles.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="88" x="4307" y="572"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="214" language="java" name="FloydWarshall" project="Java-master" 
+    file="/Java-master/DataStructures/Graphs/FloydWarshall.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="120" x="4435" y="572"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="215" language="java" name="Cycle" project="Java-master" 
+    file="/Java-master/DataStructures/Graphs/Cycles.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="226" x="4595" y="572"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="216" language="java" name="BellmanFord" project="Java-master" 
+    file="/Java-master/DataStructures/Graphs/BellmanFord.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="120" width="143" x="5143" y="572"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="217" language="java" name="Graph.Node" project="Java-master" 
+    file="/Java-master/DataStructures/Graphs/ConnectedComponent.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="88" x="4861" y="572"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="218" language="java" name="Graph.Edge" project="Java-master" 
+    file="/Java-master/DataStructures/Graphs/ConnectedComponent.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="84" width="114" x="4989" y="572"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="219" language="java" name="Graphs" project="Java-master" 
+    file="/Java-master/DataStructures/Graphs/Graphs.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="88" x="5326" y="572"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="220" language="java" name="MatrixGraphs" project="Java-master" 
+    file="/Java-master/DataStructures/Graphs/MatrixGraphs.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="115" x="5454" y="572"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="221" language="java" name="BellmanFord.Edge" project="Java-master" 
+    file="/Java-master/DataStructures/Graphs/BellmanFord.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="120" width="107" x="5143" y="732"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="222" language="java" name="ConnectedComponent" project="Java-master" 
+    file="/Java-master/DataStructures/Graphs/ConnectedComponent.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="175" x="5609" y="572"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="223" language="java" name="PrimMST" project="Java-master" 
+    file="/Java-master/DataStructures/Graphs/PrimMST.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="120" width="173" x="5824" y="572"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="224" language="java" name="Graph" project="Java-master" 
+    file="/Java-master/DataStructures/Graphs/ConnectedComponent.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="84" width="168" x="6037" y="572"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="225" language="java" name="AdjacencyMatrixGraph" project="Java-master" 
+    file="/Java-master/DataStructures/Graphs/MatrixGraphs.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="177" x="6245" y="572"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="226" language="java" name="AdjacencyListGraph.Vertex" project="Java-master" 
+    file="/Java-master/DataStructures/Graphs/Graphs.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="84" width="219" x="6462" y="572"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="227" language="java" name="AdjacencyListGraph" project="Java-master" 
+    file="/Java-master/DataStructures/Graphs/Graphs.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="186" x="6721" y="572"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="228" language="java" name="BalancedBrackets" project="Java-master" 
+    file="/Java-master/DataStructures/Stacks/BalancedBrackets.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="146" x="4205" y="767"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="229" language="java" name="StackArrayList" project="Java-master" 
+    file="/Java-master/DataStructures/Stacks/StackArrayList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="123" x="4391" y="767"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="230" language="java" name="StackOfLinkedList" project="Java-master" 
+    file="/Java-master/DataStructures/Stacks/StackOfLinkedList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="147" x="4554" y="767"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="231" language="java" name="StackArray" project="Java-master" 
+    file="/Java-master/DataStructures/Stacks/StackArray.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="98" x="4741" y="767"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="232" language="java" name="DecimalToAnyUsingStack" project="Java-master" 
+    file="/Java-master/DataStructures/Stacks/DecimalToAnyUsingStack.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="197" x="4879" y="767"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="233" language="java" name="NodeStack" project="Java-master" 
+    file="/Java-master/DataStructures/Stacks/NodeStack.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="142" x="5116" y="767"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="234" language="java" name="LinkedListStack" project="Java-master" 
+    file="/Java-master/DataStructures/Stacks/StackOfLinkedList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="132" x="5328" y="767"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="235" language="java" name="Node" project="Java-master" 
+    file="/Java-master/DataStructures/Stacks/StackOfLinkedList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="88" x="5500" y="767"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="true" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <dependency id="236">    
+    <end type="SOURCE" refId="94"/>    
+    <end type="TARGET" refId="80"/>  
+  </dependency>  
+  <association id="237">    
+    <end type="SOURCE" refId="66" navigable="false">      
+      <attribute id="238" name="next"/>      
+      <multiplicity id="239" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="66" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="240">    
+    <end type="SOURCE" refId="209"/>    
+    <end type="TARGET" refId="208"/>  
+  </dependency>  
+  <association id="241">    
+    <end type="SOURCE" refId="49" navigable="false">      
+      <attribute id="242" name="buckets"/>      
+      <multiplicity id="243" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="51" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="244">    
+    <end type="SOURCE" refId="85"/>    
+    <end type="TARGET" refId="96"/>  
+  </nesting>  
+  <association id="245">    
+    <end type="SOURCE" refId="88" navigable="false">      
+      <attribute id="246" name="right"/>      
+      <multiplicity id="247" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="88" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="248">    
+    <bendpoint x="247" y="629"/>    
+    <end type="SOURCE" refId="100"/>    
+    <end type="TARGET" refId="99"/>  
+  </nesting>  
+  <nesting id="249">    
+    <end type="SOURCE" refId="181"/>    
+    <end type="TARGET" refId="178"/>  
+  </nesting>  
+  <dependency id="250">    
+    <end type="SOURCE" refId="203"/>    
+    <end type="TARGET" refId="208"/>  
+  </dependency>  
+  <association id="251">    
+    <end type="SOURCE" refId="89" navigable="false">      
+      <attribute id="252" name="root"/>      
+      <multiplicity id="253" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="88" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="254">    
+    <end type="SOURCE" refId="98" navigable="false">      
+      <attribute id="255" name="parent"/>      
+      <multiplicity id="256" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="98" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="257">    
+    <end type="SOURCE" refId="168"/>    
+    <end type="TARGET" refId="167"/>  
+  </nesting>  
+  <association id="258">    
+    <end type="SOURCE" refId="48" navigable="false">      
+      <attribute id="259" name="_buffer"/>      
+      <multiplicity id="260" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="261">    
+    <end type="SOURCE" refId="67" navigable="false">      
+      <attribute id="262" name="head"/>      
+      <multiplicity id="263" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="63" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="264">    
+    <bendpoint x="5182" y="625"/>    
+    <end type="SOURCE" refId="144" navigable="false">      
+      <attribute id="265" name="GRAPH"/>      
+      <multiplicity id="266" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="157" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="267">    
+    <end type="SOURCE" refId="197"/>    
+    <end type="TARGET" refId="208"/>  
+  </dependency>  
+  <association id="268">    
+    <end type="SOURCE" refId="87" navigable="false">      
+      <attribute id="269" name="root"/>      
+      <multiplicity id="270" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="84" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="271">    
+    <end type="SOURCE" refId="58"/>    
+    <end type="TARGET" refId="57"/>  
+  </realization>  
+  <association id="272">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="273" name="nextElement"/>      
+      <multiplicity id="274" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="275">    
+    <end type="SOURCE" refId="180" navigable="false">      
+      <attribute id="276" name="previous"/>      
+      <multiplicity id="277" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="180" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="278">    
+    <end type="SOURCE" refId="72" navigable="false">      
+      <attribute id="279" name="next"/>      
+      <multiplicity id="280" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="72" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="281">    
+    <end type="SOURCE" refId="102" navigable="false">      
+      <attribute id="282" name="point1"/>      
+      <multiplicity id="283" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="101" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="284">    
+    <end type="SOURCE" refId="196"/>    
+    <end type="TARGET" refId="204"/>  
+  </realization>  
+  <realization id="285">    
+    <end type="SOURCE" refId="190"/>    
+    <end type="TARGET" refId="187"/>  
+  </realization>  
+  <realization id="286">    
+    <end type="SOURCE" refId="192"/>    
+    <end type="TARGET" refId="187"/>  
+  </realization>  
+  <realization id="287">    
+    <end type="SOURCE" refId="201"/>    
+    <end type="TARGET" refId="204"/>  
+  </realization>  
+  <realization id="288">    
+    <end type="SOURCE" refId="207"/>    
+    <end type="TARGET" refId="204"/>  
+  </realization>  
+  <nesting id="289">    
+    <end type="SOURCE" refId="62"/>    
+    <end type="TARGET" refId="66"/>  
+  </nesting>  
+  <association id="290">    
+    <end type="SOURCE" refId="86" navigable="false">      
+      <attribute id="291" name="root"/>      
+      <multiplicity id="292" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="79" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="293">    
+    <end type="SOURCE" refId="65" navigable="false">      
+      <attribute id="294" name="previous"/>      
+      <multiplicity id="295" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="65" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="296">    
+    <end type="SOURCE" refId="86"/>    
+    <end type="TARGET" refId="79"/>  
+  </nesting>  
+  <association id="297">    
+    <end type="SOURCE" refId="216" navigable="false">      
+      <attribute id="298" name="edges"/>      
+      <multiplicity id="299" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="221" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="300">    
+    <end type="SOURCE" refId="71"/>    
+    <end type="TARGET" refId="75"/>  
+  </dependency>  
+  <association id="301">    
+    <end type="SOURCE" refId="233" navigable="false">      
+      <attribute id="302" name="next"/>      
+      <multiplicity id="303" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="233" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="304">    
+    <end type="SOURCE" refId="154" navigable="false">      
+      <attribute id="305" name="graph"/>      
+      <multiplicity id="306" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="180" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="307">    
+    <bendpoint x="226" y="629"/>    
+    <end type="SOURCE" refId="100" navigable="false">      
+      <attribute id="308" name="points"/>      
+      <multiplicity id="309" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="99" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="310">    
+    <bendpoint x="958" y="667"/>    
+    <end type="SOURCE" refId="58" navigable="false">      
+      <attribute id="311" name="minHeap"/>      
+      <multiplicity id="312" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="56" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="313">    
+    <end type="SOURCE" refId="206"/>    
+    <end type="TARGET" refId="208"/>  
+  </dependency>  
+  <association id="314">    
+    <end type="SOURCE" refId="88" navigable="false">      
+      <attribute id="315" name="left"/>      
+      <multiplicity id="316" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="88" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="317">    
+    <end type="SOURCE" refId="147" navigable="false">      
+      <attribute id="318" name="remainingProcess"/>      
+      <multiplicity id="319" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="164" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="320">    
+    <end type="SOURCE" refId="209"/>    
+    <end type="TARGET" refId="204"/>  
+  </realization>  
+  <dependency id="321">    
+    <end type="SOURCE" refId="70"/>    
+    <end type="TARGET" refId="74"/>  
+  </dependency>  
+  <association id="322">    
+    <end type="SOURCE" refId="233" navigable="false">      
+      <attribute id="323" name="previous"/>      
+      <multiplicity id="324" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="233" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="325">    
+    <end type="SOURCE" refId="198"/>    
+    <end type="TARGET" refId="204"/>  
+  </realization>  
+  <dependency id="326">    
+    <end type="SOURCE" refId="57"/>    
+    <end type="TARGET" refId="56"/>  
+  </dependency>  
+  <association id="327">    
+    <end type="SOURCE" refId="91" navigable="false">      
+      <attribute id="328" name="right"/>      
+      <multiplicity id="329" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="91" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="330">    
+    <end type="SOURCE" refId="78" navigable="false">      
+      <attribute id="331" name="root"/>      
+      <multiplicity id="332" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="90" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="333">    
+    <end type="SOURCE" refId="93"/>    
+    <end type="TARGET" refId="83"/>  
+  </nesting>  
+  <dependency id="334">    
+    <end type="SOURCE" refId="97"/>    
+    <end type="TARGET" refId="94"/>  
+  </dependency>  
+  <dependency id="335">    
+    <end type="SOURCE" refId="50"/>    
+    <end type="TARGET" refId="49"/>  
+  </dependency>  
+  <nesting id="336">    
+    <end type="SOURCE" refId="89"/>    
+    <end type="TARGET" refId="88"/>  
+  </nesting>  
+  <dependency id="337">    
+    <end type="SOURCE" refId="95"/>    
+    <end type="TARGET" refId="81"/>  
+  </dependency>  
+  <association id="338">    
+    <end type="SOURCE" refId="102" navigable="false">      
+      <attribute id="339" name="array"/>      
+      <multiplicity id="340" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="101" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="341">    
+    <end type="SOURCE" refId="189"/>    
+    <end type="TARGET" refId="187"/>  
+  </realization>  
+  <association id="342">    
+    <end type="SOURCE" refId="93" navigable="false">      
+      <attribute id="343" name="root"/>      
+      <multiplicity id="344" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="83" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="345">    
+    <end type="SOURCE" refId="102" navigable="false">      
+      <attribute id="346" name="point2"/>      
+      <multiplicity id="347" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="101" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="348">    
+    <end type="SOURCE" refId="69" navigable="false">      
+      <attribute id="349" name="cursorSpace"/>      
+      <multiplicity id="350" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="64" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="351">    
+    <end type="SOURCE" refId="88" navigable="false">      
+      <attribute id="352" name="p"/>      
+      <multiplicity id="353" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="88" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="354">    
+    <end type="SOURCE" refId="196"/>    
+    <end type="TARGET" refId="208"/>  
+  </dependency>  
+  <dependency id="355">    
+    <bendpoint x="746" y="667"/>    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="54"/>  
+  </dependency>  
+  <realization id="356">    
+    <end type="SOURCE" refId="206"/>    
+    <end type="TARGET" refId="204"/>  
+  </realization>  
+  <nesting id="357">    
+    <end type="SOURCE" refId="168"/>    
+    <end type="TARGET" refId="171"/>  
+  </nesting>  
+  <association id="358">    
+    <end type="SOURCE" refId="90" navigable="false">      
+      <attribute id="359" name="child"/>      
+      <multiplicity id="360" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="90" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="361">    
+    <end type="SOURCE" refId="76"/>    
+    <end type="TARGET" refId="72"/>  
+  </nesting>  
+  <association id="362">    
+    <end type="SOURCE" refId="96" navigable="false">      
+      <attribute id="363" name="left"/>      
+      <multiplicity id="364" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="96" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="365">    
+    <end type="SOURCE" refId="147" navigable="false">      
+      <attribute id="366" name="processes"/>      
+      <multiplicity id="367" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="164" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="368">    
+    <end type="SOURCE" refId="191"/>    
+    <end type="TARGET" refId="187"/>  
+  </realization>  
+  <nesting id="369">    
+    <end type="SOURCE" refId="87"/>    
+    <end type="TARGET" refId="84"/>  
+  </nesting>  
+  <dependency id="370">    
+    <end type="SOURCE" refId="205"/>    
+    <end type="TARGET" refId="208"/>  
+  </dependency>  
+  <association id="371">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="372" name="currentElement"/>      
+      <multiplicity id="373" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="374">    
+    <end type="SOURCE" refId="216"/>    
+    <end type="TARGET" refId="221"/>  
+  </nesting>  
+  <association id="375">    
+    <end type="SOURCE" refId="59" navigable="false">      
+      <attribute id="376" name="head"/>      
+      <multiplicity id="377" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="68" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="378">    
+    <end type="SOURCE" refId="81" navigable="false">      
+      <attribute id="379" name="right"/>      
+      <multiplicity id="380" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="381">    
+    <end type="SOURCE" refId="57"/>    
+    <end type="TARGET" refId="54"/>  
+  </dependency>  
+  <realization id="382">    
+    <end type="SOURCE" refId="211"/>    
+    <end type="TARGET" refId="204"/>  
+  </realization>  
+  <dependency id="383">    
+    <end type="SOURCE" refId="207"/>    
+    <end type="TARGET" refId="208"/>  
+  </dependency>  
+  <nesting id="384">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="48"/>  
+  </nesting>  
+  <association id="385">    
+    <end type="SOURCE" refId="168" navigable="false">      
+      <attribute id="386" name="building"/>      
+      <multiplicity id="387" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="171" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="388">    
+    <end type="SOURCE" refId="79" navigable="false">      
+      <attribute id="389" name="left"/>      
+      <multiplicity id="390" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="79" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="391">    
+    <end type="SOURCE" refId="85" navigable="false">      
+      <attribute id="392" name="root"/>      
+      <multiplicity id="393" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="96" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="394">    
+    <bendpoint x="886" y="605"/>    
+    <bendpoint x="886" y="777"/>    
+    <end type="SOURCE" refId="97"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <nesting id="395">    
+    <end type="SOURCE" refId="92"/>    
+    <end type="TARGET" refId="98"/>  
+  </nesting>  
+  <association id="396">    
+    <bendpoint x="767" y="667"/>    
+    <end type="SOURCE" refId="55" navigable="false">      
+      <attribute id="397" name="maxHeap"/>      
+      <multiplicity id="398" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="56" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="399">    
+    <end type="SOURCE" refId="201"/>    
+    <end type="TARGET" refId="208"/>  
+  </dependency>  
+  <dependency id="400">    
+    <end type="SOURCE" refId="199"/>    
+    <end type="TARGET" refId="208"/>  
+  </dependency>  
+  <realization id="401">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="57"/>  
+  </realization>  
+  <realization id="402">    
+    <end type="SOURCE" refId="212"/>    
+    <end type="TARGET" refId="204"/>  
+  </realization>  
+  <association id="403">    
+    <bendpoint x="155" y="391"/>    
+    <end type="SOURCE" refId="44" navigable="false">      
+      <attribute id="404" name="firstElement"/>      
+      <multiplicity id="405" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="406">    
+    <end type="SOURCE" refId="144"/>    
+    <end type="TARGET" refId="154"/>  
+  </dependency>  
+  <dependency id="407">    
+    <bendpoint x="937" y="667"/>    
+    <end type="SOURCE" refId="58"/>    
+    <end type="TARGET" refId="54"/>  
+  </dependency>  
+  <association id="408">    
+    <end type="SOURCE" refId="76" navigable="false">      
+      <attribute id="409" name="rear"/>      
+      <multiplicity id="410" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="72" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="411">    
+    <end type="SOURCE" refId="67"/>    
+    <end type="TARGET" refId="63"/>  
+  </nesting>  
+  <association id="412">    
+    <end type="SOURCE" refId="92" navigable="false">      
+      <attribute id="413" name="root"/>      
+      <multiplicity id="414" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="98" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="415">    
+    <end type="SOURCE" refId="63" navigable="false">      
+      <attribute id="416" name="next"/>      
+      <multiplicity id="417" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="63" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="418">    
+    <end type="SOURCE" refId="68" navigable="false">      
+      <attribute id="419" name="next"/>      
+      <multiplicity id="420" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="68" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="421">    
+    <end type="SOURCE" refId="200"/>    
+    <end type="TARGET" refId="208"/>  
+  </dependency>  
+  <association id="422">    
+    <end type="SOURCE" refId="82" navigable="false">      
+      <attribute id="423" name="parent"/>      
+      <multiplicity id="424" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="82" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="425">    
+    <end type="SOURCE" refId="96" navigable="false">      
+      <attribute id="426" name="right"/>      
+      <multiplicity id="427" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="96" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="428">    
+    <end type="SOURCE" refId="91" navigable="false">      
+      <attribute id="429" name="left"/>      
+      <multiplicity id="430" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="91" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="431">    
+    <end type="SOURCE" refId="154"/>    
+    <end type="TARGET" refId="180"/>  
+  </nesting>  
+  <association id="432">    
+    <end type="SOURCE" refId="79" navigable="false">      
+      <attribute id="433" name="right"/>      
+      <multiplicity id="434" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="79" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="435">    
+    <end type="SOURCE" refId="82" navigable="false">      
+      <attribute id="436" name="right"/>      
+      <multiplicity id="437" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="82" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="438">    
+    <end type="SOURCE" refId="195"/>    
+    <end type="TARGET" refId="199"/>  
+  </nesting>  
+  <realization id="439">    
+    <end type="SOURCE" refId="197"/>    
+    <end type="TARGET" refId="204"/>  
+  </realization>  
+  <association id="440">    
+    <end type="SOURCE" refId="98" navigable="false">      
+      <attribute id="441" name="right"/>      
+      <multiplicity id="442" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="98" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="443">    
+    <end type="SOURCE" refId="98" navigable="false">      
+      <attribute id="444" name="left"/>      
+      <multiplicity id="445" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="98" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="446">    
+    <bendpoint x="6373" y="755"/>    
+    <end type="SOURCE" refId="195"/>    
+    <end type="TARGET" refId="204"/>  
+  </realization>  
+  <dependency id="447">    
+    <end type="SOURCE" refId="159"/>    
+    <end type="TARGET" refId="147"/>  
+  </dependency>  
+  <association id="448">    
+    <end type="SOURCE" refId="83" navigable="false">      
+      <attribute id="449" name="right"/>      
+      <multiplicity id="450" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="83" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="451">    
+    <bendpoint x="865" y="777"/>    
+    <end type="SOURCE" refId="94" navigable="false">      
+      <attribute id="452" name="root"/>      
+      <multiplicity id="453" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="91" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="454">    
+    <end type="SOURCE" refId="198"/>    
+    <end type="TARGET" refId="208"/>  
+  </dependency>  
+  <realization id="455">    
+    <end type="SOURCE" refId="205"/>    
+    <end type="TARGET" refId="204"/>  
+  </realization>  
+  <association id="456">    
+    <end type="SOURCE" refId="77" navigable="false">      
+      <attribute id="457" name="root"/>      
+      <multiplicity id="458" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="82" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="459">    
+    <end type="SOURCE" refId="103"/>    
+    <end type="TARGET" refId="99"/>  
+  </dependency>  
+  <nesting id="460">    
+    <end type="SOURCE" refId="77"/>    
+    <end type="TARGET" refId="82"/>  
+  </nesting>  
+  <association id="461">    
+    <end type="SOURCE" refId="65" navigable="false">      
+      <attribute id="462" name="next"/>      
+      <multiplicity id="463" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="65" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="464">    
+    <end type="SOURCE" refId="176"/>    
+    <end type="TARGET" refId="163"/>  
+  </dependency>  
+  <association id="465">    
+    <end type="SOURCE" refId="108" navigable="false">      
+      <attribute id="466" name="mArray"/>      
+      <multiplicity id="467" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="106" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="468">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="43"/>  
+  </nesting>  
+  <association id="469">    
+    <end type="SOURCE" refId="60" navigable="false">      
+      <attribute id="470" name="tail"/>      
+      <multiplicity id="471" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="65" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="472">    
+    <end type="SOURCE" refId="233" navigable="false">      
+      <attribute id="473" name="head"/>      
+      <multiplicity id="474" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="233" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="475">    
+    <end type="SOURCE" refId="194"/>    
+    <end type="TARGET" refId="187"/>  
+  </realization>  
+  <dependency id="476">    
+    <end type="SOURCE" refId="211"/>    
+    <end type="TARGET" refId="208"/>  
+  </dependency>  
+  <association id="477">    
+    <end type="SOURCE" refId="84" navigable="false">      
+      <attribute id="478" name="child"/>      
+      <multiplicity id="479" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="84" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="480">    
+    <end type="SOURCE" refId="193"/>    
+    <end type="TARGET" refId="187"/>  
+  </realization>  
+  <dependency id="481">    
+    <bendpoint x="4486" y="755"/>    
+    <end type="SOURCE" refId="195"/>    
+    <end type="TARGET" refId="208"/>  
+  </dependency>  
+  <association id="482">    
+    <end type="SOURCE" refId="51" navigable="false">      
+      <attribute id="483" name="Head"/>      
+      <multiplicity id="484" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="52" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="485">    
+    <end type="SOURCE" refId="81" navigable="false">      
+      <attribute id="486" name="left"/>      
+      <multiplicity id="487" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="488">    
+    <end type="SOURCE" refId="139"/>    
+    <end type="TARGET" refId="138"/>  
+  </nesting>  
+  <dependency id="489">    
+    <end type="SOURCE" refId="212"/>    
+    <end type="TARGET" refId="208"/>  
+  </dependency>  
+  <association id="490">    
+    <end type="SOURCE" refId="82" navigable="false">      
+      <attribute id="491" name="left"/>      
+      <multiplicity id="492" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="82" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="493">    
+    <end type="SOURCE" refId="202"/>    
+    <end type="TARGET" refId="204"/>  
+  </realization>  
+  <nesting id="494">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="46"/>  
+  </nesting>  
+  <nesting id="495">    
+    <end type="SOURCE" refId="69"/>    
+    <end type="TARGET" refId="64"/>  
+  </nesting>  
+  <association id="496">    
+    <end type="SOURCE" refId="80" navigable="false">      
+      <attribute id="497" name="node"/>      
+      <multiplicity id="498" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="91" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="499">    
+    <end type="SOURCE" refId="52" navigable="false">      
+      <attribute id="500" name="next"/>      
+      <multiplicity id="501" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="52" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="502">    
+    <end type="SOURCE" refId="60" navigable="false">      
+      <attribute id="503" name="head"/>      
+      <multiplicity id="504" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="65" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="505">    
+    <end type="SOURCE" refId="89" navigable="false">      
+      <attribute id="506" name="nil"/>      
+      <multiplicity id="507" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="88" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="508">    
+    <end type="SOURCE" refId="102"/>    
+    <end type="TARGET" refId="101"/>  
+  </nesting>  
+  <dependency id="509">    
+    <end type="SOURCE" refId="202"/>    
+    <end type="TARGET" refId="208"/>  
+  </dependency>  
+  <association id="510">    
+    <end type="SOURCE" refId="46" navigable="false">      
+      <attribute id="511" name="_buffer"/>      
+      <multiplicity id="512" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="513">    
+    <end type="SOURCE" refId="78"/>    
+    <end type="TARGET" refId="90"/>  
+  </nesting>  
+  <nesting id="514">    
+    <end type="SOURCE" refId="100"/>    
+    <end type="TARGET" refId="103"/>  
+  </nesting>  
+  <association id="515">    
+    <end type="SOURCE" refId="76" navigable="false">      
+      <attribute id="516" name="front"/>      
+      <multiplicity id="517" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="72" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="518">    
+    <end type="SOURCE" refId="154"/>    
+    <end type="TARGET" refId="157"/>  
+  </nesting>  
+  <realization id="519">    
+    <end type="SOURCE" refId="200"/>    
+    <end type="TARGET" refId="204"/>  
+  </realization>  
+  <realization id="520">    
+    <end type="SOURCE" refId="203"/>    
+    <end type="TARGET" refId="204"/>  
+  </realization>  
+  <nesting id="521">    
+    <bendpoint x="176" y="391"/>    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="45"/>  
+  </nesting>  
+  <association id="522">    
+    <end type="SOURCE" refId="83" navigable="false">      
+      <attribute id="523" name="left"/>      
+      <multiplicity id="524" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="83" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="false" package="true" protected="false" private="false" static="false"/>    
+    <operations public="false" package="true" protected="false" private="false" static="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

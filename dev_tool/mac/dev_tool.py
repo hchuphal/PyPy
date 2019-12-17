@@ -323,7 +323,7 @@ def _run_high_level():
     print len(dirs)
     print  dirs 
     print "Generating input for Class Diagram...."
-    command_1 = 'java -jar plantuml-dependency-cli-1.4.0-jar-with-dependencies.jar -b . -o input.txt'
+    command_1 = 'java -jar plantuml-dependency-cli-1.4.0-jar-with-dependencies.jar -b '+ DIR +' -o input.txt'
     #print command_1
     os.system(command_1)
     print "Now Generating the Graph...."
